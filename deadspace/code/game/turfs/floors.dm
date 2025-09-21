@@ -238,6 +238,10 @@
 	base_icon_state = "side_med_corners"
 	icon_state = "side_med_corners"
 
+/turf/open/floor/deadspace/med/side_med_invcorners
+	base_icon_state = "side_med_inv_corner"
+	icon_state = "side_med_inv_corner"
+
 /turf/open/floor/deadspace/med/side_med
 	base_icon_state = "side_med"
 	icon_state = "side_med"
