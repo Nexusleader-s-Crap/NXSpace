@@ -1,10 +1,12 @@
-"aj" = (/turf/closed/wall,/area/centcom/central_command_areas/control)
-"am" = (/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/control)
+"am" = (/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/evacuation)
+"ap" = (/obj/effect/turf_decal/stripes/line,/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
 "aG" = (/obj/structure/railing{dir = 8},/turf/open/floor/deadspace/random/tech{dir = 4},/area/centcom/central_command_areas/control)
 "aM" = (/obj/machinery/bodyscanner,/turf/open/floor/deadspace/med/triage_sides{dir = 4},/area/centcom/central_command_areas/control)
+"aT" = (/turf/open/misc/beach/sand,/area/centcom/central_command_areas/control)
+"aZ" = (/turf/open/misc/beach/coastline_b,/area/centcom/central_command_areas/control)
 "bn" = (/obj/machinery/stasis/survival_pod,/obj/machinery/defibrillator_mount/loaded/directional/west,/turf/open/floor/deadspace/med/triage_sides,/area/centcom/central_command_areas/control)
 "bA" = (/turf/open/floor/deadspace/med/side_med_invcorners{dir = 4},/area/centcom/central_command_areas/control)
-"bI" = (/obj/machinery/door/airlock{name = "Reception Center"},/turf/open/floor/deadspace/random/rectangles,/area/centcom/central_command_areas/control)
+"bC" = (/obj/structure/sign/warning/biohazard{pixel_x = 32},/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/control)
 "cc" = (/obj/structure/table,/obj/item/storage/box/handcuffs,/turf/open/floor/deadspace/mono,/area/centcom/central_command_areas/prison)
 "cd" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/centcom/central_command_areas/control)
 "cm" = (/obj/machinery/door/airlock/security/glass{id_tag = "outerbrig"; name = "Brig"; dir = 1},/turf/open/floor/deadspace/random/rectangles,/area/centcom/central_command_areas/prison)
@@ -13,267 +15,299 @@
 "cP" = (/obj/machinery/sleeper/mancrowave,/turf/open/floor/deadspace/med/triage_corners{dir = 4},/area/centcom/central_command_areas/control)
 "cT" = (/obj/structure/chair{pixel_y = -2},/turf/open/floor/deadspace/random/maint_center,/area/centcom/central_command_areas/control)
 "cW" = (/obj/effect/spawner/random/vending/colavend,/turf/open/floor/wood,/area/centcom/central_command_areas/control)
-"cY" = (/obj/effect/turf_decal/box/red,/obj/structure/rack,/obj/item/storage/toolbox/syndicate,/obj/item/storage/box/stingbangs,/obj/item/storage/box/teargas,/turf/open/floor/deadspace/random/slides,/area/centcom/central_command_areas/armory)
 "dj" = (/turf/open/floor/deadspace/med/side_med,/area/centcom/central_command_areas/control)
+"dn" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/centcom/central_command_areas/prison/cells)
 "dr" = (/obj/effect/turf_decal/loading_area{dir = 8},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/control)
+"dw" = (/obj/effect/turf_decal/stripes/line,/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/evacuation)
+"dR" = (/turf/closed/wall,/area/centcom/central_command_areas/armory)
 "dV" = (/turf/open/floor/iron/ported/techfloor_grid,/area/centcom/central_command_areas/control)
 "em" = (/obj/structure/reagent_dispensers/wall/peppertank/directional/east,/obj/structure/table/reinforced,/obj/item/book/manual/wiki/security_space_law,/obj/item/taperecorder,/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
 "eq" = (/obj/structure/railing{dir = 8},/turf/open/floor/deadspace/random/slides{dir = 1},/area/centcom/central_command_areas/evacuation)
-"eB" = (/obj/docking_port/stationary{dwidth = 2; height = 7; id = "pod_7_away"; name = "recovery ship"; width = 5},/obj/effect/turf_decal/stripes/line{dir = 1},/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/evacuation)
 "eC" = (/obj/structure/railing{dir = 8},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/control)
-"eV" = (/obj/structure/railing{dir = 1},/turf/open/floor/deadspace/random/rectangles,/area/centcom/central_command_areas/evacuation)
+"eV" = (/obj/machinery/door/airlock{name = "Reception Center"},/turf/open/floor/deadspace/random/rectangles,/area/centcom/central_command_areas/control)
 "fb" = (/turf/open/floor/deadspace/med/triage_corners{dir = 1},/area/centcom/central_command_areas/control)
 "fi" = (/obj/machinery/vending/drugs,/turf/open/floor/deadspace/medbay/h_rightside,/area/centcom/central_command_areas/control)
 "fr" = (/turf/open/floor/deadspace/med/triage_internalcorners{dir = 4},/area/centcom/central_command_areas/control)
 "fu" = (/turf/open/floor/deadspace/med/side_med{dir = 1},/area/centcom/central_command_areas/control)
+"fx" = (/obj/effect/landmark/start/new_player,/turf/open/floor/plating,/area/misc/start)
 "fA" = (/obj/machinery/door/airlock/medical{name = "Operating Room"; stripe_paint = "#DE3A3A"},/turf/open/floor/deadspace/med/triage_corners{dir = 4},/area/centcom/central_command_areas/control)
+"fI" = (/obj/effect/turf_decal/loading_area{dir = 4; pixel_x = -9},/turf/open/floor/deadspace/random/slides{dir = 1},/area/centcom/central_command_areas/evacuation)
+"fS" = (/obj/structure/sign/warning/biohazard{pixel_x = -32},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/control)
+"gb" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
 "gk" = (/obj/structure/bed,/obj/item/bedsheet/random,/turf/open/floor/deadspace/random/rivets,/area/centcom/central_command_areas/prison/cells)
+"gq" = (/obj/docking_port/stationary{dwidth = 2; height = 7; id = "pod_5_away"; name = "recovery ship"; width = 5; dir = 2},/obj/effect/turf_decal/stripes/line,/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/evacuation)
+"gz" = (/obj/structure/railing/corner{dir = 4},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/evacuation)
 "gA" = (/obj/structure/table/glass,/obj/item/reagent_containers/cup/beaker/large,/obj/item/reagent_containers/cup/beaker,/obj/machinery/reagentgrinder{pixel_y = 4},/turf/open/floor/deadspace/med/corner_exterior{dir = 4},/area/centcom/central_command_areas/control)
-"gJ" = (/turf/open/floor/deadspace/random/tech{dir = 8},/area/centcom/central_command_areas/evacuation)
+"gD" = (/obj/effect/turf_decal/box/red,/obj/structure/guncase,/obj/item/gun/ballistic/shotgun/scl_shotgun,/obj/item/ammo_box/magazine/ds12g,/obj/item/ammo_box/magazine/ds12g,/obj/item/ammo_box/magazine/ds12g,/turf/open/floor/deadspace/random/slides,/area/centcom/central_command_areas/armory)
+"gJ" = (/turf/open/floor/deadspace/random/tech{dir = 8},/area/centcom/central_command_areas/control)
 "gL" = (/obj/structure/table/wood,/obj/effect/spawner/random/food_or_drink/three_course_meal,/turf/open/floor/carpet/orange,/area/centcom/central_command_areas/control)
 "hc" = (/obj/machinery/vending/coffee,/turf/open/floor/wood,/area/centcom/central_command_areas/control)
 "hm" = (/obj/machinery/bodyscanner_console{dir = 8},/turf/open/floor/deadspace/med/triage_sides{dir = 8},/area/centcom/central_command_areas/control)
 "hs" = (/obj/structure/window/reinforced/spawner,/obj/structure/window/reinforced/spawner/north,/obj/structure/flora/ausbushes/fernybush,/turf/open/floor/grass,/area/centcom/central_command_areas/control)
 "hz" = (/obj/structure/table/glass,/obj/item/storage/medkit/surgery,/turf/open/floor/deadspace/med/triage_corners{dir = 4},/area/centcom/central_command_areas/control)
-"hL" = (/obj/structure/railing/corner{dir = 1},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/evacuation)
 "hW" = (/mob/living/simple_animal/bot/medbot{name = "Kyne, CSO"},/turf/open/floor/deadspace/med/triage_white,/area/centcom/central_command_areas/control)
+"hY" = (/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
+"ic" = (/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/armory)
 "is" = (/obj/machinery/door/airlock/medical/glass{name = "Medbay Clinic"},/turf/open/floor/deadspace/med/side_med_invcorners{dir = 1},/area/centcom/central_command_areas/control)
-"iN" = (/obj/effect/turf_decal/box/red,/obj/structure/guncase,/obj/item/gun/ballistic/shotgun/scl_shotgun,/obj/item/ammo_box/magazine/ds12g,/obj/item/ammo_box/magazine/ds12g,/obj/item/ammo_box/magazine/ds12g,/turf/open/floor/deadspace/random/slides,/area/centcom/central_command_areas/armory)
-"jl" = (/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/evacuation)
-"jm" = (/turf/closed/indestructible/reinforced,/area/centcom/central_command_areas/briefing)
+"ix" = (/obj/structure/fluff/beach_umbrella/science,/obj/structure/window/reinforced/spawner/west,/turf/open/misc/beach/sand,/area/centcom/central_command_areas/control)
+"iI" = (/obj/structure/railing{dir = 1},/obj/structure/closet/toolcloset,/obj/effect/turf_decal/box,/turf/open/floor/deadspace/grater,/area/centcom/central_command_areas/evacuation)
 "jq" = (/obj/structure/window/reinforced/spawner,/obj/structure/window/reinforced/spawner/north,/obj/structure/flora/ausbushes/lavendergrass,/turf/open/floor/grass,/area/centcom/central_command_areas/control)
 "jB" = (/turf/open/floor/deadspace/med/triage_internalcorners{dir = 8},/area/centcom/central_command_areas/control)
-"jD" = (/obj/docking_port/stationary{dwidth = 2; height = 7; id = "pod_5_away"; name = "recovery ship"; width = 5; dir = 2},/obj/effect/turf_decal/stripes/line,/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/evacuation)
-"kd" = (/turf/closed/wall,/area/centcom/central_command_areas/briefing)
+"jC" = (/turf/closed/wall,/area/centcom/central_command_areas/briefing)
+"jK" = (/obj/effect/overlay/palmtree_r,/turf/open/misc/beach/sand/coastline_t,/area/centcom/central_command_areas/control)
+"ka" = (/mob/living/simple_animal/crab/kreb,/turf/open/misc/beach/coastline_b,/area/centcom/central_command_areas/control)
+"kp" = (/obj/machinery/autolathe/hacked,/obj/effect/turf_decal/box,/turf/open/floor/deadspace/grater,/area/centcom/central_command_areas/evacuation)
 "ks" = (/turf/open/floor/deadspace/random/maint_center,/area/centcom/central_command_areas/control)
-"kK" = (/obj/effect/turf_decal/stripes/line{dir = 10},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
 "kN" = (/obj/structure/railing{dir = 4},/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/control)
-"lb" = (/obj/effect/turf_decal/box/red,/obj/structure/rack,/obj/item/storage/medkit/advanced,/obj/item/storage/medkit/tactical,/turf/open/floor/deadspace/random/slides,/area/centcom/central_command_areas/armory)
-"lg" = (/obj/effect/turf_decal/stripes/line,/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/evacuation)
-"lw" = (/obj/effect/turf_decal/stripes/line{dir = 6},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
+"lb" = (/obj/structure/railing/corner{dir = 1},/turf/open/floor/deadspace/random/slides{dir = 1},/area/centcom/central_command_areas/evacuation)
+"lg" = (/obj/structure/window/reinforced/spawner/west,/turf/open/misc/beach/coastline_b,/area/centcom/central_command_areas/control)
 "lC" = (/obj/machinery/vending/donksofttoyvendor,/turf/open/floor/wood,/area/centcom/central_command_areas/control)
 "lF" = (/obj/machinery/vending/clothing,/turf/open/floor/wood,/area/centcom/central_command_areas/control)
-"lK" = (/obj/docking_port/stationary{dwidth = 2; height = 7; id = "pod_6_away"; name = "recovery ship"; width = 5; dir = 2},/obj/effect/turf_decal/stripes/line,/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/evacuation)
+"lI" = (/obj/effect/turf_decal/box/red,/obj/structure/guncase,/obj/item/gun/ballistic/shotgun/scl_shotgun,/obj/item/ammo_box/magazine/ds12g,/obj/item/ammo_box/magazine/ds12g,/obj/item/ammo_box/magazine/ds12g,/turf/open/floor/deadspace/random/slides{dir = 1},/area/centcom/central_command_areas/armory)
 "mj" = (/obj/structure/table/reinforced,/obj/item/reagent_containers/spray/cleaner,/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
 "mo" = (/obj/structure/table/reinforced,/obj/item/storage/box/handcuffs,/obj/item/reagent_containers/spray/pepper,/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
-"mA" = (/obj/structure/railing{dir = 1},/obj/machinery/vending/assist,/obj/effect/turf_decal/box,/turf/open/floor/deadspace/grater,/area/centcom/central_command_areas/evacuation)
 "mE" = (/obj/structure/table,/turf/open/floor/deadspace/mono,/area/centcom/central_command_areas/prison)
 "mF" = (/mob/living/simple_animal/bot/medbot{name = "Mercer, SO"},/turf/open/floor/deadspace/med/triage_corners{dir = 8},/area/centcom/central_command_areas/control)
+"mQ" = (/obj/item/food/egg/rainbow{desc = "I bet you think you're pretty clever... well you are."; name = "easter egg"},/turf/open/space/basic,/area/space)
 "mT" = (/obj/machinery/door/airlock{name = "Unit 1"},/turf/open/floor/iron/showroomfloor,/area/centcom/central_command_areas/control)
 "mZ" = (/obj/machinery/shower{dir = 1},/obj/effect/spawner/random/trash/soap{spawn_scatter_radius = 1},/turf/open/floor/deadspace/grille_spare4,/area/centcom/central_command_areas/control)
 "ne" = (/obj/structure/railing,/turf/open/floor/wood,/area/centcom/central_command_areas/control)
 "nC" = (/obj/machinery/cryopod,/turf/open/floor/iron/showroomfloor,/area/centcom/central_command_areas/control)
+"nH" = (/obj/effect/turf_decal/stripes/line{dir = 5},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
 "nP" = (/obj/structure/rack,/obj/item/wheelchair/gold{pixel_y = -4},/obj/item/wheelchair,/obj/item/wheelchair{pixel_y = 4},/turf/open/floor/deadspace/medbay/h_rightside,/area/centcom/central_command_areas/control)
 "nQ" = (/obj/structure/closet/crate/bin,/turf/open/floor/wood,/area/centcom/central_command_areas/control)
+"nS" = (/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/evacuation)
 "nZ" = (/obj/structure/table,/obj/item/paper,/obj/item/pen/fourcolor,/turf/open/floor/deadspace/random/rivets,/area/centcom/central_command_areas/prison/cells)
 "oa" = (/turf/open/floor/deadspace/cable_end,/area/centcom/central_command_areas/evacuation)
-"oj" = (/obj/structure/railing{dir = 1},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
 "os" = (/obj/structure/disposalpipe/segment,/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
 "ov" = (/obj/machinery/vitals_monitor,/turf/open/floor/deadspace/med/triage_corners{dir = 1},/area/centcom/central_command_areas/control)
 "oF" = (/obj/structure/railing{dir = 4},/turf/open/floor/deadspace/random/tech{dir = 8},/area/centcom/central_command_areas/control)
-"oG" = (/obj/effect/turf_decal/loading_area{dir = 4; pixel_x = -9},/turf/open/floor/deadspace/random/slides{dir = 1},/area/centcom/central_command_areas/evacuation)
-"pp" = (/obj/effect/turf_decal/stripes/line,/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
+"pB" = (/obj/effect/turf_decal/box/red,/obj/structure/rack,/obj/item/shield/riot/ds,/obj/item/shield/riot/ds,/obj/item/shield/riot/ds/advanced,/turf/open/floor/deadspace/random/slides,/area/centcom/central_command_areas/armory)
 "pF" = (/obj/structure/chair{dir = 4},/turf/open/floor/carpet/red,/area/centcom/central_command_areas/control)
-"qc" = (/obj/docking_port/stationary{dwidth = 2; height = 7; id = "pod_2_away"; name = "recovery ship"; width = 5; dir = 2},/obj/effect/turf_decal/stripes/line,/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/evacuation)
-"qp" = (/obj/machinery/autolathe/hacked,/obj/effect/turf_decal/box,/turf/open/floor/deadspace/grater,/area/centcom/central_command_areas/evacuation)
+"qj" = (/obj/structure/railing{dir = 1},/turf/open/floor/deadspace/random/rectangles,/area/centcom/central_command_areas/evacuation)
+"qo" = (/turf/open/misc/ashplanet/wateryrock,/area/awaymission/errorroom)
 "qV" = (/obj/structure/disposalpipe/trunk{dir = 1},/obj/machinery/disposal/delivery_chute{dir = 4},/obj/structure/window/reinforced/spawner/north,/obj/structure/window/reinforced/spawner/west,/turf/open/floor/iron/dark,/area/centcom/central_command_areas/briefing)
 "qW" = (/obj/structure/table/wood,/obj/effect/spawner/random/food_or_drink/refreshing_beverage,/turf/open/floor/carpet/purple,/area/centcom/central_command_areas/control)
+"qZ" = (/obj/effect/overlay/coconut,/turf/open/misc/beach/sand/coastline_t,/area/centcom/central_command_areas/control)
 "rb" = (/obj/effect/spawner/structure/window/reinforced,/obj/structure/disposalpipe/segment,/turf/open/floor/plating,/area/centcom/central_command_areas/control)
-"rm" = (/obj/effect/turf_decal/box/red,/obj/structure/rack,/obj/item/shield/riot/ds,/obj/item/shield/riot/ds,/obj/item/shield/riot/ds/advanced,/turf/open/floor/deadspace/random/slides,/area/centcom/central_command_areas/armory)
 "rx" = (/turf/open/floor/wood,/area/centcom/central_command_areas/control)
+"rB" = (/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/control)
 "rG" = (/obj/structure/chair{dir = 4},/mob/living/simple_animal/pet/dog/pug/mcgriff{name = "McGriff Hammond"},/turf/open/floor/carpet/blue,/area/centcom/central_command_areas/control)
 "rL" = (/obj/structure/table/reinforced,/obj/item/storage/briefcase/inflatable,/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
 "rM" = (/obj/structure/closet/l3closet/security,/obj/effect/turf_decal/box/red,/turf/open/floor/deadspace/mono,/area/centcom/central_command_areas/briefing)
+"rQ" = (/obj/effect/turf_decal/stripes/line{dir = 8},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
 "rT" = (/obj/machinery/door/airlock/public/glass{name = "Cryosleep Bay"},/turf/open/floor/iron/showroomfloor,/area/centcom/central_command_areas/control)
 "rV" = (/obj/machinery/door/airlock{name = "Unisex Shower"},/turf/open/floor/deadspace/bathroom,/area/centcom/central_command_areas/control)
 "sd" = (/obj/structure/table/optable,/obj/machinery/defibrillator_mount/loaded/directional/south,/turf/open/floor/deadspace/med/triage_sides{dir = 8},/area/centcom/central_command_areas/control)
+"si" = (/obj/structure/railing{dir = 4},/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/deadspace/random/slides,/area/centcom/central_command_areas/evacuation)
 "sk" = (/obj/structure/disposalpipe/segment{dir = 10},/turf/open/floor/iron/ported/techfloor_grid,/area/centcom/central_command_areas/control)
 "st" = (/obj/structure/disposalpipe/segment,/turf/open/floor/iron/ported/techfloor_grid,/area/centcom/central_command_areas/control)
-"sz" = (/obj/structure/rack,/obj/item/stack/sheet/glass/fifty,/obj/item/stack/rods/fifty,/obj/item/stack/sheet/iron/fifty,/obj/item/stack/sheet/plastic/fifty,/obj/item/stack/sheet/mineral/wood/fifty,/obj/effect/turf_decal/box,/turf/open/floor/deadspace/grater,/area/centcom/central_command_areas/evacuation)
+"sE" = (/obj/structure/sign/warning/biohazard{pixel_x = -32},/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/control)
+"sI" = (/obj/effect/turf_decal/delivery/red,/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
 "sL" = (/turf/open/floor/deadspace/cable,/area/centcom/central_command_areas/evacuation)
-"sM" = (/obj/structure/railing{dir = 8},/obj/structure/railing{dir = 4},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
+"tb" = (/turf/open/floor/deadspace/random/slides{dir = 1},/area/centcom/central_command_areas/evacuation)
 "te" = (/turf/open/floor/deadspace/med/triage_corners{dir = 8},/area/centcom/central_command_areas/control)
 "ty" = (/obj/structure/rack,/obj/item/roller,/obj/item/roller{pixel_y = 4},/obj/item/roller{pixel_y = 6},/turf/open/floor/deadspace/medbay/h_rightside,/area/centcom/central_command_areas/control)
-"tB" = (/turf/open/floor/deadspace/grate,/area/centcom/central_command_areas/evacuation)
+"tF" = (/obj/effect/turf_decal/stripes/line{dir = 6},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
 "tV" = (/obj/structure/window/reinforced/spawner,/obj/structure/window/reinforced/spawner/north,/obj/structure/flora/ausbushes/ppflowers,/turf/open/floor/grass,/area/centcom/central_command_areas/control)
 "uf" = (/obj/machinery/vending/cigarette,/turf/open/floor/wood,/area/centcom/central_command_areas/control)
 "uh" = (/mob/living/silicon/robot/model/janitor,/obj/item/key/janitor,/turf/open/floor/iron/showroomfloor,/area/centcom/central_command_areas/control)
-"uC" = (/turf/open/floor/deadspace/random/tech{dir = 4},/area/centcom/central_command_areas/evacuation)
+"uw" = (/obj/docking_port/stationary{dwidth = 2; height = 7; id = "pod_7_away"; name = "recovery ship"; width = 5},/obj/effect/turf_decal/stripes/line{dir = 1},/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/evacuation)
+"uQ" = (/obj/effect/turf_decal/stripes/line{dir = 10},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
 "uX" = (/obj/effect/spawner/random/trash/soap{spawn_scatter_radius = 1},/obj/structure/table,/turf/open/floor/iron/showroomfloor,/area/centcom/central_command_areas/control)
 "vf" = (/obj/machinery/door/airlock/medical{name = "Operating Room"; stripe_paint = "#DE3A3A"},/turf/open/floor/deadspace/med/triage_corners,/area/centcom/central_command_areas/control)
 "vh" = (/turf/open/floor/deadspace/bathroom,/area/centcom/central_command_areas/control)
+"vo" = (/obj/structure/fans/tiny/invisible,/turf/open/floor/holofloor/hyperspace,/area/space)
+"vy" = (/turf/closed/wall,/area/centcom/central_command_areas/prison/cells)
 "vK" = (/obj/structure/window/reinforced/spawner,/obj/structure/window/reinforced/spawner/north,/obj/structure/window/reinforced/spawner/west,/obj/structure/flora/ausbushes/sunnybush,/turf/open/floor/grass,/area/centcom/central_command_areas/control)
+"vS" = (/obj/effect/turf_decal/delivery,/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
 "vV" = (/obj/machinery/door/window/right/directional/east{base_state = "left"; dir = 1; icon_state = "left"; name = "Danger: Biohazards"},/turf/open/floor/iron/dark,/area/centcom/central_command_areas/briefing)
 "vW" = (/obj/machinery/shower{dir = 1},/turf/open/floor/deadspace/grille_spare4,/area/centcom/central_command_areas/control)
 "vZ" = (/obj/machinery/door/poddoor,/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
 "wg" = (/obj/structure/table/reinforced,/obj/item/restraints/handcuffs/cable/zipties,/obj/item/assembly/flash/handheld,/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
+"wh" = (/turf/closed/indestructible/reinforced,/area/centcom/central_command_areas/prison)
 "wk" = (/obj/machinery/iv_drip,/obj/item/reagent_containers/blood/universal,/turf/open/floor/deadspace/med/triage_sides{dir = 1},/area/centcom/central_command_areas/control)
 "ws" = (/obj/machinery/door/airlock/medical/glass{name = "Medbay Clinic"},/turf/open/floor/deadspace/med/side_med_invcorners,/area/centcom/central_command_areas/control)
+"wv" = (/obj/structure/railing{dir = 1},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
 "wN" = (/turf/open/floor/iron/showroomfloor,/area/centcom/central_command_areas/control)
-"wO" = (/obj/effect/turf_decal/stripes/line{dir = 9},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
-"wQ" = (/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/control)
+"wQ" = (/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/evacuation)
+"wX" = (/obj/structure/railing/corner{dir = 8},/turf/open/floor/deadspace/grate,/area/centcom/central_command_areas/evacuation)
 "xe" = (/obj/structure/sign/barsign,/turf/closed/wall,/area/centcom/central_command_areas/control)
-"xl" = (/turf/open/floor/deadspace/grater,/area/centcom/central_command_areas/evacuation)
+"xi" = (/obj/effect/turf_decal/stripes/corner{dir = 8},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
+"xl" = (/obj/structure/railing{dir = 5},/obj/structure/closet/toolcloset,/obj/effect/turf_decal/box,/turf/open/floor/deadspace/grater,/area/centcom/central_command_areas/evacuation)
+"xr" = (/obj/structure/railing,/turf/open/floor/deadspace/grate,/area/centcom/central_command_areas/evacuation)
+"xt" = (/obj/structure/sign/warning/vacuum{pixel_y = 32},/turf/open/floor/deadspace/grate,/area/centcom/central_command_areas/evacuation)
+"xu" = (/turf/open/floor/deadspace/random/tech{dir = 8},/area/centcom/central_command_areas/evacuation)
 "xy" = (/turf/open/floor/deadspace/med/side_med_invcorners{dir = 8},/area/centcom/central_command_areas/control)
 "xz" = (/obj/structure/chair/stool/bar/directional/north,/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/turf/open/floor/iron,/area/centcom/central_command_areas/control)
 "xG" = (/mob/living/simple_animal/bot/cleanbot,/turf/open/floor/wood,/area/centcom/central_command_areas/control)
 "xZ" = (/obj/structure/sink{pixel_y = -12; dir = 1},/obj/structure/mirror/directional/south,/turf/open/floor/iron/showroomfloor,/area/centcom/central_command_areas/control)
 "yh" = (/obj/structure/table/wood,/obj/machinery/reagentgrinder,/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/turf/open/floor/iron,/area/centcom/central_command_areas/control)
 "yi" = (/obj/structure/table/wood,/obj/effect/spawner/random/food_or_drink/soup,/turf/open/floor/carpet/purple,/area/centcom/central_command_areas/control)
-"yu" = (/turf/open/floor/deadspace/random/tech{dir = 8},/area/centcom/central_command_areas/control)
-"yv" = (/obj/effect/turf_decal/stripes/line{dir = 8},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
+"ym" = (/obj/docking_port/stationary{dwidth = 2; height = 7; id = "pod_4_away"; name = "recovery ship"; width = 5; dir = 2},/obj/effect/turf_decal/stripes/line,/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/evacuation)
+"yo" = (/obj/structure/rack,/obj/item/stack/sheet/glass/fifty,/obj/item/stack/rods/fifty,/obj/item/stack/sheet/iron/fifty,/obj/item/stack/sheet/plastic/fifty,/obj/item/stack/sheet/mineral/wood/fifty,/obj/effect/turf_decal/box,/turf/open/floor/deadspace/grater,/area/centcom/central_command_areas/evacuation)
 "yZ" = (/obj/structure/toilet{pixel_y = 5},/obj/machinery/newscaster/directional/east,/turf/open/floor/iron/showroomfloor,/area/centcom/central_command_areas/control)
 "zd" = (/obj/structure/chair{dir = 8},/turf/open/floor/carpet/purple,/area/centcom/central_command_areas/control)
 "zr" = (/obj/item/kirbyplants{icon_state = "plant-21"},/obj/structure/extinguisher_cabinet/directional/west,/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
+"zy" = (/obj/structure/railing/corner{dir = 1},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/evacuation)
 "zz" = (/turf/open/floor/deadspace/med/side_med_corners{dir = 8},/area/centcom/central_command_areas/control)
-"zP" = (/turf/closed/indestructible/reinforced,/area/centcom/central_command_areas/control)
+"zM" = (/obj/machinery/door/window/brigdoor/left/directional/west{name = "Relaxation Room"},/turf/open/misc/beach/sand,/area/centcom/central_command_areas/control)
+"zQ" = (/turf/open/floor/deadspace/grater,/area/centcom/central_command_areas/evacuation)
 "zW" = (/obj/machinery/computer/crew,/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
 "Ac" = (/obj/structure/chair{dir = 8},/mob/living/simple_animal/pet/dog/corgi/ian{name = "Ian Clarke"},/turf/open/floor/carpet/blue,/area/centcom/central_command_areas/control)
 "Af" = (/obj/effect/turf_decal/loading_area{dir = 4; pixel_x = 20},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/control)
 "Ai" = (/obj/machinery/chem_master,/turf/open/floor/deadspace/med/corner_exterior{dir = 8},/area/centcom/central_command_areas/control)
-"Am" = (/obj/structure/sign/warning/biohazard{pixel_x = -32},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/control)
-"An" = (/obj/docking_port/stationary{dwidth = 2; height = 7; id = "pod_4_away"; name = "recovery ship"; width = 5; dir = 2},/obj/effect/turf_decal/stripes/line,/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/evacuation)
+"As" = (/obj/docking_port/stationary{dwidth = 2; height = 7; id = "pod_9_away"; name = "recovery ship"; width = 5},/obj/effect/turf_decal/stripes/line{dir = 1},/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/evacuation)
 "Ay" = (/obj/structure/window/reinforced/spawner,/obj/structure/window/reinforced/spawner/north,/obj/structure/flora/ausbushes/leafybush,/turf/open/floor/grass,/area/centcom/central_command_areas/control)
-"AE" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
-"AO" = (/turf/closed/wall,/area/centcom/central_command_areas/armory)
 "Bk" = (/obj/machinery/door/airlock{name = "Unit 4"},/turf/open/floor/iron/showroomfloor,/area/centcom/central_command_areas/control)
 "Bm" = (/obj/machinery/vending/boozeomat/syndicate_access,/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/turf/open/floor/iron,/area/centcom/central_command_areas/control)
 "Bo" = (/turf/open/space/basic,/area/space)
 "Bp" = (/obj/machinery/door/airlock/security{name = "Control Center"},/turf/open/floor/deadspace/random/rectangles,/area/centcom/central_command_areas/control)
-"Bw" = (/obj/structure/barricade/security/ds,/obj/effect/turf_decal/box/red,/turf/open/floor/deadspace/random/slides{dir = 1},/area/centcom/central_command_areas/armory)
 "BB" = (/turf/open/floor/deadspace/med/triage_sides{dir = 1},/area/centcom/central_command_areas/control)
 "BD" = (/obj/structure/chair{pixel_y = -2},/turf/open/floor/deadspace/random/rivets,/area/centcom/central_command_areas/prison/cells)
+"BF" = (/obj/structure/railing{dir = 1},/obj/machinery/vending/assist,/obj/effect/turf_decal/box,/turf/open/floor/deadspace/grater,/area/centcom/central_command_areas/evacuation)
 "BI" = (/obj/machinery/chem_heater,/turf/open/floor/deadspace/medbay/h_leftside,/area/centcom/central_command_areas/control)
 "BK" = (/obj/structure/table/wood,/obj/machinery/chem_dispenser/drinks,/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/turf/open/floor/iron,/area/centcom/central_command_areas/control)
 "BO" = (/obj/machinery/chem_dispenser,/turf/open/floor/deadspace/medbay/h_leftside,/area/centcom/central_command_areas/control)
-"BP" = (/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/evacuation)
 "BY" = (/obj/structure/table/glass,/obj/item/storage/medkit/advanced,/obj/item/reagent_containers/spray/cleaner,/turf/open/floor/deadspace/med/triage_sides{dir = 4},/area/centcom/central_command_areas/control)
-"Ca" = (/obj/structure/railing/corner{dir = 8},/turf/open/floor/deadspace/grate,/area/centcom/central_command_areas/evacuation)
 "Cb" = (/obj/machinery/button/door/directional/south{id = "evacarmory"},/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
-"Cj" = (/obj/structure/railing{dir = 4},/turf/open/floor/deadspace/random/slides,/area/centcom/central_command_areas/evacuation)
 "Cr" = (/obj/machinery/door/airlock{name = "Contamination Airlock"},/turf/open/floor/deadspace/grater,/area/centcom/central_command_areas/control)
-"Cs" = (/obj/structure/table/wood,/obj/item/reagent_containers/cup/glass/drinkingglass,/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/turf/open/floor/iron,/area/centcom/central_command_areas/control)
-"Ct" = (/obj/structure/railing/corner{dir = 1},/turf/open/floor/deadspace/random/slides{dir = 1},/area/centcom/central_command_areas/evacuation)
+"Cs" = (/obj/structure/table/wood,/obj/item/reagent_containers/cup/glass/trophy/gold_cup,/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/turf/open/floor/iron,/area/centcom/central_command_areas/control)
 "Cw" = (/turf/open/floor/deadspace/mono,/area/centcom/central_command_areas/prison)
-"CB" = (/turf/closed/wall,/area/centcom/central_command_areas/prison)
+"CA" = (/obj/docking_port/stationary{dwidth = 2; height = 7; id = "pod_8_away"; name = "recovery ship"; width = 5},/obj/effect/turf_decal/stripes/line{dir = 1},/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/evacuation)
 "CF" = (/obj/structure/chair{dir = 4},/turf/open/floor/carpet/purple,/area/centcom/central_command_areas/control)
-"CJ" = (/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/armory)
 "CP" = (/obj/structure/table/reinforced,/obj/machinery/recharger,/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
-"Dq" = (/obj/machinery/vending/tool,/obj/effect/turf_decal/box,/turf/open/floor/deadspace/grater,/area/centcom/central_command_areas/evacuation)
-"Dv" = (/obj/structure/railing{dir = 4},/obj/structure/table,/obj/item/storage/toolbox/electrical{pixel_y = 4},/obj/item/storage/toolbox/mechanical,/obj/effect/turf_decal/box,/turf/open/floor/deadspace/grater,/area/centcom/central_command_areas/evacuation)
+"CX" = (/turf/closed/indestructible/reinforced/centcom,/area/awaymission/errorroom)
+"Dr" = (/obj/docking_port/stationary{dir = 4; dwidth = 25; height = 50; id = "emergency_away"; json_key = "emergency"; name = "CentCom Emergency Shuttle Dock"; width = 50},/obj/effect/turf_decal/delivery,/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
 "DB" = (/obj/structure/reagent_dispensers/water_cooler,/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
+"DT" = (/turf/open/floor/deadspace/random/tech{dir = 4},/area/centcom/central_command_areas/control)
 "DY" = (/obj/effect/turf_decal/siding/wood{dir = 1},/turf/open/floor/wood,/area/centcom/central_command_areas/control)
 "Ef" = (/obj/machinery/door/poddoor,/turf/open/space/basic,/area/centcom/central_command_areas/evacuation)
-"Eg" = (/obj/structure/railing/corner,/turf/open/floor/deadspace/grate,/area/centcom/central_command_areas/evacuation)
-"En" = (/obj/docking_port/stationary{dwidth = 2; height = 7; id = "pod_away"; name = "recovery ship"; width = 5; dir = 2},/obj/effect/turf_decal/stripes/line,/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/evacuation)
-"Eq" = (/obj/structure/railing{dir = 1},/turf/open/floor/deadspace/grater,/area/centcom/central_command_areas/evacuation)
 "Et" = (/turf/open/floor/deadspace/med/side_med_invcorners{dir = 1},/area/centcom/central_command_areas/control)
 "Ew" = (/obj/machinery/vending/medical/syndicate_access,/turf/open/floor/deadspace/med/corner_exterior{dir = 1},/area/centcom/central_command_areas/control)
-"Fn" = (/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/evacuation)
+"EN" = (/obj/item/rupee,/turf/open/misc/ashplanet/wateryrock,/area/awaymission/errorroom)
+"Fo" = (/obj/structure/speaking_tile,/turf/closed/mineral/ash_rock,/area/awaymission/errorroom)
 "Fr" = (/obj/machinery/door/poddoor/shutters/window{id = "evacarmory"; name = "armory shutters"; dir = 1},/turf/open/floor/deadspace/random/rectangles,/area/centcom/central_command_areas/armory)
 "FA" = (/obj/structure/table/wood,/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/turf/open/floor/iron,/area/centcom/central_command_areas/control)
 "FU" = (/obj/machinery/vending/boozeomat/all_access,/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/turf/open/floor/iron,/area/centcom/central_command_areas/control)
+"Ga" = (/obj/structure/signpost/salvation{icon = 'icons/obj/structures.dmi'; icon_state = "ladder10"; invisibility = 100},/turf/open/misc/ashplanet/wateryrock,/area/awaymission/errorroom)
 "Gg" = (/obj/structure/window/reinforced/spawner/north,/obj/structure/window/reinforced/spawner/east,/turf/open/floor/iron/dark,/area/centcom/central_command_areas/briefing)
-"Gl" = (/obj/docking_port/stationary{dwidth = 2; height = 7; id = "pod_8_away"; name = "recovery ship"; width = 5},/obj/effect/turf_decal/stripes/line{dir = 1},/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/evacuation)
+"Gm" = (/obj/effect/turf_decal/box/red,/obj/structure/rack,/obj/item/mod/control/pre_equipped/ds/pcsi,/obj/item/mod/control/pre_equipped/ds/pcsi,/turf/open/floor/deadspace/random/slides{dir = 1},/area/centcom/central_command_areas/armory)
 "Go" = (/obj/structure/table/glass,/obj/item/storage/medkit/tactical,/obj/item/reagent_containers/spray/cleaner,/turf/open/floor/deadspace/med/triage_sides{dir = 8},/area/centcom/central_command_areas/control)
-"GO" = (/obj/structure/railing{dir = 1},/obj/structure/closet/toolcloset,/obj/effect/turf_decal/box,/turf/open/floor/deadspace/grater,/area/centcom/central_command_areas/evacuation)
-"GT" = (/obj/structure/railing/corner{dir = 4},/turf/open/floor/deadspace/random/slides,/area/centcom/central_command_areas/evacuation)
 "GV" = (/turf/open/floor/deadspace/med/triage_sides{dir = 8},/area/centcom/central_command_areas/control)
-"GZ" = (/turf/open/floor/deadspace/random/slides,/area/centcom/central_command_areas/evacuation)
+"GZ" = (/obj/structure/railing{dir = 4},/turf/open/floor/deadspace/random/slides,/area/centcom/central_command_areas/evacuation)
+"Hc" = (/obj/effect/turf_decal/loading_area{pixel_y = 9},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/evacuation)
 "Hh" = (/obj/machinery/iv_drip,/obj/machinery/iv_drip,/obj/item/reagent_containers/blood/universal,/turf/open/floor/deadspace/medbay/h_rightside,/area/centcom/central_command_areas/control)
-"Hi" = (/obj/effect/turf_decal/stripes/corner{dir = 8},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
 "Hm" = (/obj/structure/table/wood,/obj/effect/spawner/random/food_or_drink/dinner,/turf/open/floor/carpet/blue,/area/centcom/central_command_areas/control)
-"Hw" = (/obj/effect/turf_decal/box/red,/obj/structure/rack,/obj/item/mod/control/pre_equipped/ds/pcsi,/obj/item/mod/control/pre_equipped/ds/pcsi,/turf/open/floor/deadspace/random/slides{dir = 1},/area/centcom/central_command_areas/armory)
-"HW" = (/obj/structure/railing{dir = 1},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/evacuation)
+"Hp" = (/turf/open/misc/beach/coastline_t,/area/centcom/central_command_areas/control)
+"Hq" = (/obj/structure/railing{dir = 1},/turf/open/floor/deadspace/grater,/area/centcom/central_command_areas/evacuation)
+"HO" = (/obj/structure/railing{dir = 8},/obj/structure/railing{dir = 4},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
 "HY" = (/turf/open/floor/deadspace/med/triage_sides,/area/centcom/central_command_areas/control)
 "Ib" = (/obj/effect/turf_decal/stripes/full,/obj/machinery/disposal/bin,/obj/structure/disposalpipe/trunk{dir = 4},/turf/open/floor/iron/ported/techfloor_grid,/area/centcom/central_command_areas/control)
 "Ic" = (/turf/open/floor/deadspace/med/triage_internalcorners{dir = 1},/area/centcom/central_command_areas/control)
 "Ig" = (/mob/living/simple_animal/bot/cleanbot/medbay{name = "Harris"},/turf/open/floor/deadspace/med/side_med_corners,/area/centcom/central_command_areas/control)
 "Il" = (/obj/structure/chair{dir = 8},/turf/open/floor/carpet/orange,/area/centcom/central_command_areas/control)
-"Ip" = (/obj/docking_port/stationary{dwidth = 2; height = 7; id = "pod_3_away"; name = "recovery ship"; width = 5; dir = 2},/obj/effect/turf_decal/stripes/line,/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/evacuation)
+"IE" = (/turf/closed/indestructible/reinforced,/area/centcom/central_command_areas/evacuation)
 "II" = (/obj/machinery/vending/autodrobe,/turf/open/floor/wood,/area/centcom/central_command_areas/control)
+"IJ" = (/turf/closed/indestructible/reinforced,/area/centcom/central_command_areas/briefing)
 "IL" = (/obj/machinery/vitals_monitor,/turf/open/floor/deadspace/med/triage_corners{dir = 8},/area/centcom/central_command_areas/control)
+"IO" = (/obj/effect/turf_decal/loading_area{dir = 8; pixel_x = 9},/turf/open/floor/deadspace/random/slides,/area/centcom/central_command_areas/evacuation)
+"Je" = (/turf/closed/wall,/area/centcom/central_command_areas/prison)
 "Jp" = (/obj/structure/closet/crate/bin,/turf/open/floor/iron/showroomfloor,/area/centcom/central_command_areas/control)
 "Jr" = (/obj/machinery/shower{pixel_y = 16},/turf/open/floor/deadspace/grille_spare4,/area/centcom/central_command_areas/control)
 "Js" = (/obj/structure/closet/crate/trashcart,/turf/open/floor/iron/showroomfloor,/area/centcom/central_command_areas/control)
 "Jx" = (/obj/structure/chair{dir = 8},/turf/open/floor/deadspace/mono,/area/centcom/central_command_areas/prison)
-"JA" = (/obj/structure/sign/warning/biohazard{pixel_x = 32},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/control)
-"JD" = (/obj/machinery/door/airlock/security{name = "Arrival's Office"},/turf/open/floor/deadspace/random/rectangles,/area/centcom/central_command_areas/briefing)
 "JU" = (/obj/effect/turf_decal/stripes/full,/turf/open/floor/iron/ported/techfloor_grid,/area/centcom/central_command_areas/control)
 "JW" = (/obj/machinery/door/airlock/security/glass{id_tag = "outerbrig"; name = "Cell 2"; dir = 1},/turf/open/floor/deadspace/random/rivets,/area/centcom/central_command_areas/prison/cells)
+"Kd" = (/obj/effect/turf_decal/box/red,/obj/structure/rack,/obj/item/storage/medkit/advanced,/obj/item/storage/medkit/tactical,/turf/open/floor/deadspace/random/slides,/area/centcom/central_command_areas/armory)
+"Ki" = (/turf/open/floor/deadspace/random/rectangles,/area/centcom/central_command_areas/evacuation)
 "Kk" = (/obj/machinery/bodyscanner_console{dir = 8},/turf/open/floor/deadspace/med/triage_sides{dir = 4},/area/centcom/central_command_areas/control)
-"Kv" = (/turf/closed/indestructible/reinforced,/area/centcom/central_command_areas/prison)
-"KK" = (/obj/structure/railing,/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
+"KG" = (/obj/docking_port/stationary{dwidth = 2; height = 7; id = "pod_away"; name = "recovery ship"; width = 5; dir = 2},/obj/effect/turf_decal/stripes/line,/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/evacuation)
 "KM" = (/obj/machinery/computer/secure_data,/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
 "KX" = (/obj/structure/chair{dir = 4},/turf/open/floor/carpet/orange,/area/centcom/central_command_areas/control)
-"Lc" = (/obj/effect/turf_decal/loading_area{dir = 8; pixel_x = 9},/turf/open/floor/deadspace/random/slides,/area/centcom/central_command_areas/evacuation)
 "Lx" = (/obj/effect/turf_decal/loading_area{dir = 8; pixel_x = -20},/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/control)
-"Mw" = (/obj/effect/turf_decal/box/red,/obj/structure/guncase,/obj/item/gun/ballistic/shotgun/scl_shotgun,/obj/item/ammo_box/magazine/ds12g,/obj/item/ammo_box/magazine/ds12g,/obj/item/ammo_box/magazine/ds12g,/turf/open/floor/deadspace/random/slides{dir = 1},/area/centcom/central_command_areas/armory)
 "MJ" = (/obj/machinery/door/airlock/security/glass{id_tag = "outerbrig"; name = "Cell 1"; dir = 1},/turf/open/floor/deadspace/random/rivets,/area/centcom/central_command_areas/prison/cells)
+"Nn" = (/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/deadspace/cable,/area/centcom/central_command_areas/evacuation)
 "Nv" = (/obj/structure/chair{dir = 8},/turf/open/floor/carpet/red,/area/centcom/central_command_areas/control)
 "NI" = (/obj/machinery/cryopod{dir = 1},/turf/open/floor/iron/showroomfloor,/area/centcom/central_command_areas/control)
+"NK" = (/obj/structure/railing{dir = 1},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/evacuation)
 "NQ" = (/obj/structure/railing{dir = 8},/turf/open/floor/deadspace/random/tech{dir = 8},/area/centcom/central_command_areas/control)
-"Oc" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/centcom/central_command_areas/prison/cells)
+"NT" = (/obj/effect/turf_decal/stripes/line{dir = 1},/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/evacuation)
+"Ol" = (/obj/effect/landmark/error,/turf/open/misc/ashplanet/wateryrock,/area/awaymission/errorroom)
 "Or" = (/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/turf/open/floor/iron,/area/centcom/central_command_areas/control)
-"OV" = (/turf/open/floor/deadspace/random/rectangles,/area/centcom/central_command_areas/evacuation)
+"OA" = (/obj/structure/barricade/security/ds,/obj/effect/turf_decal/box/red,/turf/open/floor/deadspace/random/slides{dir = 1},/area/centcom/central_command_areas/armory)
+"OI" = (/turf/closed/mineral/ash_rock,/area/awaymission/errorroom)
 "OW" = (/obj/machinery/jukebox,/turf/open/floor/wood,/area/centcom/central_command_areas/control)
+"OX" = (/turf/open/floor/holofloor/hyperspace,/area/space)
 "Pp" = (/turf/open/floor/deadspace/random/rivets,/area/centcom/central_command_areas/prison/cells)
 "Pt" = (/obj/machinery/shower{pixel_y = 16},/obj/effect/spawner/random/trash/soap{spawn_scatter_radius = 1},/turf/open/floor/deadspace/grille_spare4,/area/centcom/central_command_areas/control)
+"Pw" = (/turf/closed/indestructible/reinforced,/area/centcom/central_command_areas/armory)
 "PF" = (/obj/structure/table/wood,/obj/machinery/chem_dispenser/drinks/beer,/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/turf/open/floor/iron,/area/centcom/central_command_areas/control)
 "PH" = (/obj/machinery/stasis/survival_pod,/obj/machinery/defibrillator_mount/loaded/directional/west,/turf/open/floor/deadspace/med/triage_corners,/area/centcom/central_command_areas/control)
 "Qd" = (/obj/item/bikehorn/rubberducky,/turf/open/floor/deadspace/bathroom,/area/centcom/central_command_areas/control)
 "Qi" = (/obj/structure/closet/l3closet/janitor,/turf/open/floor/iron/showroomfloor,/area/centcom/central_command_areas/control)
 "Qn" = (/obj/effect/turf_decal/loading_area{dir = 4},/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/control)
-"Qp" = (/obj/structure/railing{dir = 5},/turf/open/floor/deadspace/random/rectangles,/area/centcom/central_command_areas/evacuation)
+"Qo" = (/obj/structure/table/wood,/obj/item/reagent_containers/cup/glass/drinkingglass,/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/turf/open/floor/iron,/area/centcom/central_command_areas/control)
+"Qu" = (/obj/structure/railing/corner{dir = 4},/turf/open/floor/deadspace/random/slides,/area/centcom/central_command_areas/evacuation)
+"QS" = (/obj/docking_port/stationary{dwidth = 2; height = 7; id = "pod_3_away"; name = "recovery ship"; width = 5; dir = 2},/obj/effect/turf_decal/stripes/line,/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/evacuation)
 "QT" = (/obj/machinery/door/airlock{name = "Unit 2"},/turf/open/floor/iron/showroomfloor,/area/centcom/central_command_areas/control)
+"QV" = (/obj/structure/railing/corner,/turf/open/floor/deadspace/grate,/area/centcom/central_command_areas/evacuation)
+"QW" = (/turf/closed/indestructible/start_area,/area/misc/start)
 "Re" = (/obj/structure/table/reinforced,/obj/item/clipboard,/obj/item/pen/fourcolor,/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
 "Rf" = (/obj/machinery/bodyscanner,/turf/open/floor/deadspace/med/triage_sides{dir = 8},/area/centcom/central_command_areas/control)
 "Ri" = (/obj/structure/table/reinforced,/obj/item/camera,/obj/item/camera_film{pixel_y = 9},/obj/item/taperecorder,/obj/structure/disposalpipe/segment,/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
 "RA" = (/obj/machinery/sleeper{dir = 8},/turf/open/floor/deadspace/med/triage_sides{dir = 8},/area/centcom/central_command_areas/control)
-"RC" = (/obj/structure/railing{dir = 5},/obj/structure/closet/toolcloset,/obj/effect/turf_decal/box,/turf/open/floor/deadspace/grater,/area/centcom/central_command_areas/evacuation)
+"RK" = (/obj/effect/turf_decal/stripes/line{dir = 9},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
+"RZ" = (/obj/structure/railing{dir = 5},/turf/open/floor/deadspace/random/rectangles,/area/centcom/central_command_areas/evacuation)
 "Sh" = (/obj/structure/chair{dir = 4},/mob/living/simple_animal/pet/dog/corgi/lisa{name = "Lisa Brennan"},/turf/open/floor/carpet/blue,/area/centcom/central_command_areas/control)
 "Sv" = (/obj/effect/turf_decal/siding/wood/corner{dir = 1},/turf/open/floor/wood,/area/centcom/central_command_areas/control)
-"SF" = (/obj/effect/turf_decal/stripes/line{dir = 5},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
-"ST" = (/turf/closed/wall,/area/centcom/central_command_areas/prison/cells)
 "SX" = (/obj/structure/table/reinforced,/obj/machinery/fax_machine,/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
-"Tr" = (/turf/closed/wall,/area/centcom/central_command_areas/evacuation)
-"TB" = (/turf/closed/indestructible/reinforced,/area/centcom/central_command_areas/armory)
+"To" = (/turf/closed/indestructible/splashscreen,/area/misc/start)
+"Tr" = (/turf/closed/wall,/area/centcom/central_command_areas/control)
 "TH" = (/obj/structure/railing{dir = 4},/turf/open/floor/deadspace/random/tech{dir = 4},/area/centcom/central_command_areas/control)
-"TS" = (/obj/structure/sign/warning/biohazard{pixel_x = 32},/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/control)
+"TN" = (/turf/open/floor/deadspace/random/slides,/area/centcom/central_command_areas/evacuation)
+"Ug" = (/obj/structure/sign/warning/biohazard{pixel_x = 32},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/control)
 "Um" = (/obj/structure/table/wood,/obj/effect/spawner/random/food_or_drink/booze,/turf/open/floor/carpet/blue,/area/centcom/central_command_areas/control)
 "Uq" = (/obj/structure/table/wood,/obj/effect/spawner/random/food_or_drink/booze,/turf/open/floor/carpet/red,/area/centcom/central_command_areas/control)
+"Ur" = (/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
+"Uv" = (/obj/structure/railing{dir = 8},/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/deadspace/random/slides{dir = 1},/area/centcom/central_command_areas/evacuation)
+"Ux" = (/obj/structure/chair,/turf/open/misc/beach/sand,/area/centcom/central_command_areas/control)
+"Uy" = (/obj/structure/window/reinforced/spawner/west,/turf/open/misc/beach/coastline_t,/area/centcom/central_command_areas/control)
 "UG" = (/obj/structure/table/wood,/obj/item/book/manual/wiki/barman_recipes{pixel_x = -4; pixel_y = 7},/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/turf/open/floor/iron,/area/centcom/central_command_areas/control)
 "UL" = (/obj/structure/table/optable,/obj/machinery/defibrillator_mount/loaded/directional/north,/turf/open/floor/deadspace/med/triage_sides{dir = 4},/area/centcom/central_command_areas/control)
 "UO" = (/obj/machinery/door/airlock{name = "Unisex Restrooms"},/turf/open/floor/iron/showroomfloor,/area/centcom/central_command_areas/control)
-"VG" = (/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
-"VL" = (/obj/docking_port/stationary{dwidth = 2; height = 7; id = "pod_9_away"; name = "recovery ship"; width = 5},/obj/effect/turf_decal/stripes/line{dir = 1},/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/evacuation)
+"VG" = (/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/prison)
 "VM" = (/obj/structure/closet/crate/freezer/blood,/turf/open/floor/deadspace/medbay/h_rightside,/area/centcom/central_command_areas/control)
+"VP" = (/turf/closed/wall,/area/centcom/central_command_areas/evacuation)
+"VX" = (/obj/docking_port/stationary{dwidth = 2; height = 7; id = "pod_2_away"; name = "recovery ship"; width = 5; dir = 2},/obj/effect/turf_decal/stripes/line,/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/evacuation)
+"Wa" = (/obj/structure/railing,/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
+"Wd" = (/obj/docking_port/stationary{dwidth = 2; height = 7; id = "pod_6_away"; name = "recovery ship"; width = 5; dir = 2},/obj/effect/turf_decal/stripes/line,/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/evacuation)
+"We" = (/obj/machinery/door/airlock/security{name = "Arrival's Office"},/turf/open/floor/deadspace/random/rectangles,/area/centcom/central_command_areas/briefing)
 "Wk" = (/obj/machinery/door/airlock{name = "Unit 3"},/turf/open/floor/iron/showroomfloor,/area/centcom/central_command_areas/control)
 "WA" = (/obj/structure/table/glass,/obj/item/storage/medkit/surgery,/turf/open/floor/deadspace/med/triage_corners,/area/centcom/central_command_areas/control)
-"WH" = (/obj/structure/railing/corner{dir = 4},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/evacuation)
-"WI" = (/obj/structure/railing,/turf/open/floor/deadspace/grate,/area/centcom/central_command_areas/evacuation)
+"WI" = (/turf/open/floor/deadspace/grate,/area/centcom/central_command_areas/evacuation)
 "WK" = (/obj/structure/table/wood,/obj/effect/spawner/random/food_or_drink/refreshing_beverage,/turf/open/floor/carpet/orange,/area/centcom/central_command_areas/control)
+"WL" = (/obj/machinery/vending/tool,/obj/effect/turf_decal/box,/turf/open/floor/deadspace/grater,/area/centcom/central_command_areas/evacuation)
 "WO" = (/obj/effect/turf_decal/siding/wood{dir = 8},/turf/open/floor/wood,/area/centcom/central_command_areas/control)
-"Xf" = (/obj/structure/sign/warning/biohazard{pixel_x = -32},/turf/open/floor/deadspace/random/slides{dir = 4},/area/centcom/central_command_areas/control)
-"Xn" = (/turf/closed/indestructible/reinforced,/area/centcom/central_command_areas/evacuation)
+"Xn" = (/turf/closed/indestructible/reinforced,/area/centcom/central_command_areas/control)
+"Xo" = (/obj/effect/turf_decal/stripes/line{dir = 4},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
 "Xp" = (/turf/open/floor/deadspace/med/side_med{dir = 8},/area/centcom/central_command_areas/control)
 "Xq" = (/turf/open/floor/deadspace/med/triage_white,/area/centcom/central_command_areas/control)
+"Xs" = (/obj/effect/turf_decal/box/red,/obj/structure/rack,/obj/item/storage/toolbox/syndicate,/obj/item/storage/box/stingbangs,/obj/item/storage/box/teargas,/turf/open/floor/deadspace/random/slides,/area/centcom/central_command_areas/armory)
 "Xu" = (/obj/machinery/vending/games,/turf/open/floor/wood,/area/centcom/central_command_areas/control)
-"Xy" = (/obj/effect/turf_decal/stripes/line{dir = 4},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
-"XJ" = (/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/plating,/area/centcom/central_command_areas/evacuation)
-"XQ" = (/obj/effect/turf_decal/stripes/line{dir = 1},/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/evacuation)
+"XK" = (/turf/open/floor/deadspace/random/slides{dir = 8},/area/centcom/central_command_areas/control)
 "XT" = (/obj/structure/window/reinforced/spawner,/obj/structure/window/reinforced/spawner/north,/obj/structure/flora/grass/green,/turf/open/floor/grass,/area/centcom/central_command_areas/control)
-"XX" = (/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/prison)
 "Ye" = (/obj/effect/spawner/random/vending/snackvend,/turf/open/floor/wood,/area/centcom/central_command_areas/control)
 "Yf" = (/obj/structure/chair{dir = 1},/turf/open/floor/deadspace/random/maint_center,/area/centcom/central_command_areas/control)
-"Ym" = (/turf/open/floor/deadspace/random/tech{dir = 4},/area/centcom/central_command_areas/control)
+"Ym" = (/turf/open/floor/deadspace/random/tech{dir = 4},/area/centcom/central_command_areas/evacuation)
 "Yr" = (/obj/structure/reagent_dispensers/wall/peppertank/directional/south,/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
 "Ys" = (/obj/structure/closet/secure_closet/brig{id = "Cell 3"; name = "Cell 3 Locker"},/obj/structure/window/reinforced/spawner/east,/obj/effect/turf_decal/bot,/turf/open/floor/deadspace/mono,/area/centcom/central_command_areas/prison)
 "YF" = (/turf/open/floor/deadspace/cable_start,/area/centcom/central_command_areas/evacuation)
-"YH" = (/turf/open/floor/deadspace/random/slides{dir = 1},/area/centcom/central_command_areas/evacuation)
 "YJ" = (/obj/machinery/door/airlock/security{name = "Arrival's Office"},/turf/open/floor/deadspace/random/rectangles,/area/centcom/central_command_areas/control)
 "YK" = (/obj/structure/chair{dir = 8},/mob/living/simple_animal/pet/cat/space{name = "Daniels"},/turf/open/floor/carpet/blue,/area/centcom/central_command_areas/control)
 "YR" = (/obj/machinery/shower{pixel_y = 16},/obj/effect/spawner/random/trash/soap{spawn_scatter_radius = 1},/mob/living/simple_animal/hostile/lizard/space{name = "Carla"},/turf/open/floor/deadspace/grille_spare4,/area/centcom/central_command_areas/control)
+"YT" = (/obj/structure/fans/tiny/invisible,/turf/open/floor/holofloor/hyperspace,/area/centcom/central_command_areas/supplypod/supplypod_temp_holding)
+"Zs" = (/obj/structure/railing{dir = 4},/obj/structure/table,/obj/item/storage/toolbox/electrical{pixel_y = 4},/obj/item/storage/toolbox/mechanical,/obj/effect/turf_decal/box,/turf/open/floor/deadspace/grater,/area/centcom/central_command_areas/evacuation)
 "Zu" = (/obj/structure/chair/office{dir = 1},/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
 "Zw" = (/obj/machinery/computer/security,/turf/open/floor/deadspace/random/golf_brown,/area/centcom/central_command_areas/briefing)
 "ZC" = (/obj/machinery/sleeper{dir = 8},/turf/open/floor/deadspace/med/triage_sides{dir = 4},/area/centcom/central_command_areas/control)
@@ -302,84 +336,84 @@ BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
 BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
 BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
 BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrTrTrvZvZvZvZvZvZvZvZvZvZvZvZTrTrTrTrvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZTrTrTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrtBtBtBtBtBtBtBtBtBtBtBtBtBtBtBoaoatBtBtBtBtBtBtBtBtBtBtBtBtBtBtBtBtBtBtBtBtBtBtBTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrtBtBtBtBtBtBtBtBtBtBtBtBtBtBtBsLsLtBtBtBtBtBtBtBtBtBtBtBtBtBtBtBtBtBtBtBtBtBtBtBTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrtBEgWIWIWIWIWIWIWIWIWIWIWIWICasLsLEgWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIWICatBTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjwOXJXJXJXJXJXJXJXJXJXJSFeqsLsLCjwOXJXJXJXJXJXJXJXJXJXJXJXJXJXJXJXJXJXJSFeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLLcZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYoGGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLLcZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYoGGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHLcZYZYZYZYZYZYZYZYZYZYZYZYoGsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHLcZYZYZYZYZYZYZYZYZYZYZYZYoGsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYoGGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLLcZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYoGGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLLcZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHLcZYZYZYZYZYZYZYZYZYZYZYZYoGsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHLcZYZYZYZYZYZYZYZYZYZYZYZYoGsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBozPzPzPzPzPzPzPzPzPzPzPzPzPzPzPBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBozPajajajajajajajajajajajajajzPzPzPzPzPBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBozPajJsQiuhajyZajyZajyZajyZajajajajajzPBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBozPajwNwNwNajmTajQTajWkajBkajPtJrYRajzPBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBozPajuXwNwNwNwNwNwNwNwNwNwNrVvhQdvhajzPBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrXnBozPajwNwNwNwNwNwNwNwNwNwNwNrVvhvhvhajzPBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLLcZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYoGGZTrXnzPzPajxZxZxZwNwNwNJpxZxZxZwNajvWmZvWajzPBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHLcZYZYZYZYZYZYZYZYZYZYZYZYoGsLsLLcZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYoGGZTrajajajajajxeajajUOUOajajajajajajajajajzPBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHLcZYZYZYZYZYZYZYZYZYZYZYZYoGsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrBKPFyhFUBmOrOrWOrxrxuflClFIIajnCnCnCajzPBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrOrOrOrOrOrOrUGWOrxrxrxrxrxrxajwNwNwNajzPBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZTrCsCsCsFAFAFAcNWOrxrxrxrxrxrxrTwNwNwNajzPBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrYHCjyvZYZYZYZYZYZYZYZYZYZYXyeqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZAExzxzxzxzxzxzxzWOrxrxrxrxrxrxrTwNwNwNajzPBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnXnXnXnXnXnXnXnXnXnXnXnXnTrYHCjkKpppppppppppppppppppplweqsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZAEDYDYDYDYDYDYDYSvrxrxrxrxrxnQajwNwNwNajzPBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrvZvZvZTrvZvZvZTrvZvZvZTrBPWHHWHWHWHWHWHWHWHWHWHWHWHWCtsLsLCjyvZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZAErxrxrxrxrxrxrxrxrxrxrxrxrxXuajNININIajzPBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrZYZYZYsMZYZYZYsMZYZYZYTrjljljljljljljljljljljljljljlYHsLsLCjkKppppppppppHiZYZYZYZYZYZYZYZYZYZYZYZYXyeqGZAErxCFyizdrxrxOWxGrxShUmAcrxYeajajajajajzPBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrZYZYZYsMZYZYZYsMZYZYZYTrmAEqGORCxlxlxlxlxlxlxlxlxlxlYHYFYFGTeVeVeVeVeVQpkKpppppppppppppppppppppppplweqGZAErxCFqWzdrxrxrxrxrxrGHmYKrxYeajzPzPzPzPzPBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrZYZYZYsMZYZYZYsMZYZYZYTrDqxlxlxlxlxlxlxlxlajajajajajbIbIbIbIajajajajBPWHHWHWHWHWHWHWHWHWHWHWHWHWHWHWhLBPTrrxrxrxrxrxrxrxrxrxrxrxrxrxhcajBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnXnXnTrZYZYZYsMZYZYZYsMZYZYZYTrszxlqpDvxlxlxlxlxlajksksksksksksksksksksksbIxlxlxlxlxlxlxlxlxlxlxlxlxlxlxlxlxlxlTrrxpFUqNvrxrxrxrxrxKXWKIlrxcWajzPBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrTrTrKKZYKKTrKKZYKKTrKKZYKKTrTrTrTrTrOVOVOVOVTrajksksksksksksksksksksksajjljljljljljljljljljljljljljljljljljlTrrxpFZKNvrxrxrxrxrxKXgLIlrxcWajzPBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrFnFnXQVLXQXQXQGlXQXQXQeBXQFnFnBPBPBPBPBPBPBPBPajksksYfYfYfYfYfYfYfksksajajajajajajajajajajajajajajajajajajajajnenenenenerxrxrxneneneneneajajzPBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrgJgJgJgJgJgJgJgJgJgJgJgJgJgJgJgJgJgJgJgJgJgJgJbIksksvKXTtVAyjqhscpkskseCAfamJAajIbskdVJUajAmdramameCamamamamamamamamamamamamamamamamamamajzPzPBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTruCuCuCuCuCuCuCuCuCuCuCuCuCuCuCuCuCuCuCuCuCuCuCbIkskscTcTcTcTcTcTcTksksNQoFyuyuCrdVstdVdVCryuoFyuyuNQyuyuyuyuyuyuyuyuyuyuyuyuyuyuyuyuyuyuajzPBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrlglKlglglgjDlglglgAnlglglgIplglglgqclglglgEnlgajksksksksksksksksksksksaGTHYmYmCrdVstdVdVCrYmTHYmYmaGYmYmYmYmYmYmYmYmYmYmYmYmYmYmYmYmYmYmajzPBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrojZYojTrojZYojTrojZYojTrojZYojTrojZYojTrojZYojajksksksksksksksksksksksQnkNwQTSajJUstdVJUajXfkNwQwQLxwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQajzPBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrZYZYZYsMZYZYZYsMZYZYZYsMZYZYZYsMZYZYZYsMZYZYZYajajajajajcdcdcdajajYJYJajajBpBpajcdrbcdcdajajajBpBpajajajajwsisajajcdcdcdcdajajajajajajajajzPBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrZYZYZYsMZYZYZYsMZYZYZYsMZYZYZYsMZYZYZYsMZYZYZYTrXnjmkdwgKMzWZwemkdVGVGVGkdVGVGmjrLRimozWReKMSXVGVGVGajcPmFXpzzdjdjdjEtgABIBOAiajhzBYULILajzPBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrZYZYZYsMZYZYZYsMZYZYZYsMZYZYZYsMZYZYZYsMZYZYZYTrXnjmkdCPVGZuVGVGVGVGVGVGJDVGVGVGVGosVGZuVGZuVGVGVGVGajHYBBbAfufufuIgzzdjdjdjEtfAjBXqhWwkajzPBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrZYZYZYsMZYZYZYsMZYZYZYsMZYZYZYsMZYZYZYsMZYZYZYTrXnjmkdzrVGVGVGVGVGVGVGVGkdVGVGVGVGosVGVGVGVGVGYrVGDBajbnfrZCaMKktebAfufufufuxyvfIcXqXqwkajzPBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnTrvZvZvZTrEfEfEfTrEfEfEfTrEfEfEfTrEfEfEfTrEfEfEfTrXnjmkdkdkdSTOcSTSTSTOcSTkdVGVGVGVGosVGVGVGVGVGkdkdkdajPHGVRARfhmfbHhtynPVMfiEwajWAGosdovajzPBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnjmjmKvCBBDPpgkSTBDPpgkkdVGVGrMrMqVvVGgVGVGCbkdjmjmajajajajajajajajajajajajajajajajajajajzPBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoKvCBnZPpPpSTnZPpPpCBcmcmCBCBCBAOAOFrFrAOAOTBjmzPzPzPzPzPzPzPzPzPzPzPzPzPzPzPzPzPzPzPzPBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoKvCBOcJWOcSTOcMJOcCBXXXXmECBKvAOBwCJCJrmAOTBBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoKvCBCwCwCwYsCwCwCwYsXXXXccCBKvAOBwCJCJcYAOTBBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoKvCBXXXXXXXXXXXXXXXXXXXXJxCBKvAOHwCJCJlbAOTBBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoKvCBXXXXXXXXXXXXXXXXXXXXJxCBKvAOMwCJCJiNAOTBBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoKvCBCBCBCBCBCBCBCBCBCBCBCBCBKvAOAOAOAOAOAOTBBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
-BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoKvKvKvKvKvKvKvKvKvKvKvKvKvKvKvTBTBTBTBTBTBTBBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPVPVPvZvZvZvZvZvZvZvZvZvZvZvZVPVPVPVPvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZVPVPVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPWIxtWIWIWIWIWIWIWIWIWIWIWIWIxtoaoaxtWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIxtWIVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIsLsLWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIWIVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPWIQVxrxrxrxrxrxrxrxrxrxrxrxrwXsLsLQVxrxrxrxrxrxrxrxrxrxrxrxrxrxrxrxrxrxrxrxrwXWIVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZRKhYhYhYhYhYhYhYhYhYhYnHUvNnNnsiRKhYhYhYhYhYhYhYhYhYhYhYhYhYhYhYhYhYhYnHeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSvSvSvSvSvSvSvSZYXoeqsLsLGZrQZYvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIsIsIsIsIsIvSZYXoeqsLsLGZrQZYvSsIsIsIsIsIsIsIsIsIsIsIsIsIsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLIOZYZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYZYfITNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLIOZYZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYZYfITNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbIOZYZYvSsIZYZYZYZYsIvSZYZYfIsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbIOZYZYvSsIZYZYZYZYsIvSZYZYfIsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYZYfITNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLIOZYZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYZYfITNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLIOZYZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbIOZYZYvSsIZYZYZYZYsIvSZYZYfIsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbIOZYZYvSsIZYZYZYZYsIvSZYZYfIsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoXnTrTrTrTrTrTrTrTrTrTrTrTrTrXnXnXnXnXnBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoXnTrJsQiuhTryZTryZTryZTryZTrTrTrTrTrXnBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoXnTrwNwNwNTrmTTrQTTrWkTrBkTrPtJrYRTrXnBo
+BoQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoXnTruXwNwNwNwNwNwNwNwNwNwNrVvhQdvhTrXnBo
+BoQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYDrsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPIEBoXnTrwNwNwNwNwNwNwNwNwNwNwNrVvhvhvhTrXnBo
+BoQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLIOZYZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYZYfITNVPXnXnXnTrxZxZxZwNwNwNJpxZxZxZwNTrvWmZvWTrXnBo
+BoQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbIOZYZYvSsIZYZYZYZYsIvSZYZYfIsLsLIOZYZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYZYfITNVPTrTrTrTrTrxeTrTrUOUOTrTrTrTrTrTrTrTrTrXnBoBo
+BoQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbIOZYZYvSsIZYZYZYZYsIvSZYZYfIsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPBKPFyhFUBmOrOrWOrxrxuflClFIITrnCnCnCTrXnBoBo
+BoQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIZYZYZYZYsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPOrOrOrOrOrOrUGWOrxrxrxrxrxrxTrwNwNwNTrXnBoBo
+BoQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSsIsIsIsIsIsIvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNVPCsQoQoFAFAFAcNWOrxrxrxrxrxrxrTwNwNwNTrXnBoBo
+BoQWQWQWQWQWQWQWfxQWQWQWQWQWQWQWQWQWBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPtbGZrQZYvSvSvSvSvSvSvSvSZYXoeqsLsLGZrQZYvSsIZYZYZYZYZYZYZYZYZYZYZYZYsIvSZYXoeqTNgbxzxzxzxzxzxzxzWOrxrxrxrxrxrxrTwNwNwNTrXnBoBo
+BoQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEIEIEIEIEIEIEIEIEIEIEIEIEVPtbGZuQapapapapapapapapapaptFeqsLsLGZrQZYvSsIsIsIsIsIsIsIsIsIsIsIsIsIsIvSZYXoeqTNgbDYDYDYDYDYDYDYSvrxrxrxrxrxnQTrwNwNwNTrXnBoBo
+BoQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPvZvZvZVPvZvZvZVPvZvZvZVPamgzNKNKNKNKNKNKNKNKNKNKNKNKlbsLsLGZrQZYvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSZYXoeqTNgbrxrxrxrxrxrxrxrxrxrxrxrxrxXuTrNININITrXnBoBo
+BoQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPZYZYZYHOZYZYZYHOZYZYZYVPwQwQwQwQwQwQwQwQwQwQwQwQwQwQtbsLsLGZuQapapapapapxiZYZYZYZYZYZYZYZYZYZYZYZYXoeqTNgbrxCFyizdrxrxOWxGrxShUmAcrxYeTrTrTrTrTrXnBoBo
+BoQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPZYZYZYHOZYZYZYHOZYZYZYVPBFHqiIxlzQzQzQzQzQzQzQzQzQzQtbYFYFQuqjqjqjqjqjRZuQZYZYapapapapapapapapapaptFeqTNgbrxCFqWzdrxrxrxrxrxrGHmYKrxYeTrXnXnXnXnXnBoBo
+BoQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPZYZYZYHOZYZYZYHOZYZYZYVPWLzQzQzQzQzQzQzQzQTrTrTrTrTreVeVeVeVTrTrTrTramgzNKHcHcNKNKNKNKNKNKNKNKNKNKNKzyamVPrxrxrxrxrxrxrxrxrxrxrxrxrxhcTrXnBoBoBoBoBoBo
+BoQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEIEIEVPZYZYZYHOZYZYZYHOZYZYZYVPyozQkpZszQzQzQzQzQTrkskskskskskskskskskskseVzQzQzQzQzQzQzQzQzQzQzQzQzQzQzQzQzQzQVPrxpFUqNvrxrxrxrxrxKXWKIlrxcWTrXnBoBoBoBoBoBo
+BoToQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWQWBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPVPVPWaZYWaVPWaZYWaVPWaZYWaVPVPVPVPVPKiKiKiKiVPTrksksksksksksksksksksksTrwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQVPrxpFZKNvrxrxrxrxrxKXgLIlrxcWTrXnXnXnXnBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPnSnSNTAsNTNTNTCANTNTNTuwNTnSnSamamamamamamamamTrksksYfYfYfYfYfYfYfksksTrTrTrTrTrTrTrTrTrTrTrTrTrTrTrTrTrTrTrTrnenenenenerxrxrxneneneneneTrTrTrTrTrXnBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPxuxuxuxuxuxuxuxuxuxuxuxuxuxuxuxuxuxuxuxuxuxuxueVksksvKXTtVAyjqhscpkskseCAfXKUgTrIbskdVJUTrfSdrXKXKeCXKXKXKXKXKXKXKXKXKXKXKXKXKXKXKXKXKXKXKixUxjKTrXnBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBovovovovovovovovovovovovovovovovovoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPYmYmYmYmYmYmYmYmYmYmYmYmYmYmYmYmYmYmYmYmYmYmYmeVkskscTcTcTcTcTcTcTksksNQoFgJgJCrdVstdVdVCrgJoFgJgJNQgJgJgJgJgJgJgJgJgJgJgJgJgJgJgJgJgJgJgJzMaTqZTrXnBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBovoOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXvoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPdwWddwdwdwgqdwdwdwymdwdwdwQSdwdwdwVXdwdwdwKGdwTrksksksksksksksksksksksaGTHDTDTCrdVstdVdVCrDTTHDTDTaGDTDTDTDTDTDTDTDTDTDTDTDTDTDTDTDTDTDTDTUyHpHpTrXnBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBovoOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXvoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPwvZYwvVPwvZYwvVPwvZYwvVPwvZYwvVPwvZYwvVPwvZYwvTrksksksksksksksksksksksQnkNrBbCTrJUstdVJUTrsEkNrBrBLxrBrBrBrBrBrBrBrBrBrBrBrBrBrBrBrBrBrBrBlgaZkaTrXnBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBovoOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXvoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPZYZYZYHOZYZYZYHOZYZYZYHOZYZYZYHOZYZYZYHOZYZYZYTrTrTrTrTrcdcdcdTrTrYJYJTrTrBpBpTrcdrbcdcdTrTrTrBpBpTrTrTrTrwsisTrTrcdcdcdcdTrTrTrTrTrTrTrTrTrTrTrTrXnBoBoBo
+BoCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXBoBovoOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXvoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPZYZYZYHOZYZYZYHOZYZYZYHOZYZYZYHOZYZYZYHOZYZYZYVPIEIJjCwgKMzWZwemjCUrUrUrjCUrUrmjrLRimozWReKMSXUrUrUrTrcPmFXpzzdjdjdjEtgABIBOAiTrhzBYULILTrXnXnXnXnXnBoBoBo
+BoCXOIOIOIOIOIOIFoOIOIOIOIOIOICXBoBovoOXOXOXOXOXvovovovovoOXOXOXOXOXvoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPZYZYZYHOZYZYZYHOZYZYZYHOZYZYZYHOZYZYZYHOZYZYZYVPIEIJjCCPUrZuUrUrUrUrUrUrWeUrUrUrUrosUrZuUrZuUrUrUrUrTrHYBBbAfufufuIgzzdjdjdjEtfAjBXqhWwkTrXnBoBoBoBoBoBoBo
+BoCXOIENENENqoENENENqoENENENOICXBoBovoOXOXOXOXOXvoYTYTYTvoOXOXOXOXOXvoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPZYZYZYHOZYZYZYHOZYZYZYHOZYZYZYHOZYZYZYHOZYZYZYVPIEIJjCzrUrUrUrUrUrUrUrUrjCUrUrUrUrosUrUrUrUrUrYrUrDBTrbnfrZCaMKktebAfufufufuxyvfIcXqXqwkTrXnBoBoBoBoBoBoBo
+BoCXOIENENENqoENENENqoENENENOICXmQBovoOXOXOXOXOXvoYTYTYTvoOXOXOXOXOXvoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEVPvZvZvZVPEfEfEfVPEfEfEfVPEfEfEfVPEfEfEfVPEfEfEfVPIEIJjCjCjCvydnvyvyvydnvyjCUrUrUrUrosUrUrUrUrUrjCjCjCTrPHGVRARfhmfbHhtynPVMfiEwTrWAGosdovTrXnBoBoBoBoBoBoBo
+BoCXOIENENENqoENENENqoENENENOICXBoBovoOXOXOXOXOXvoYTYTYTvoOXOXOXOXOXvoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIEIJIJwhJeBDPpgkvyBDPpgkjCUrUrrMrMqVvVGgUrUrCbjCIJIJTrTrTrTrTrTrTrTrTrTrTrTrTrTrTrTrTrTrTrXnBoBoBoBoBoBoBo
+BoCXOIqoqoqoqoqoqoqoqoqoqoqoOICXBoBovoOXOXOXOXOXvovovovovoOXOXOXOXOXvoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBowhJenZPpPpvynZPpPpJecmcmJeJeJedRdRFrFrdRdRPwIJXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnBoBoBoBoBoBoBo
+BoCXOIENENENqoqoqoqoqoENENENOICXBoBovoOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXvoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBowhJednJWdnvydnMJdnJeVGVGmEJewhdROAicicpBdRPwBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoCXOIENENENqoqoOlqoqoENENENOICXBoBovoOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXvoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBowhJeCwCwCwYsCwCwCwYsVGVGccJewhdROAicicXsdRPwBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoCXOIENENENqoqoGaqoqoENENENOICXBoBovoOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXvoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBowhJeVGVGVGVGVGVGVGVGVGVGJxJewhdRGmicicKddRPwBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoCXOIOIOIOIOIOIOIOIOIOIOIOIOICXBoBovoOXOXOXOXOXOXOXOXOXOXOXOXOXOXOXvoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBowhJeVGVGVGVGVGVGVGVGVGVGJxJewhdRlIicicgDdRPwBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoCXCXCXCXCXCXCXCXCXCXCXCXCXCXCXBoBovovovovovovovovovovovovovovovovovoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBowhJeJeJeJeJeJeJeJeJeJeJeJeJewhdRdRdRdRdRdRPwBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
+BoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBowhwhwhwhwhwhwhwhwhwhwhwhwhwhwhPwPwPwPwPwPwPwBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBoBo
 "}
