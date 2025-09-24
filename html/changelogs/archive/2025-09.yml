@@ -8,3 +8,13 @@
       simple equipment.
   - refactor: This system will eventually obsolete legacy Embedded Controllers, such
       as those used in the Toxins burn chamber, and Virology.
+2025-09-15:
+  MisterGrimm:
+  - rscdel: Removed Brute curl
+  - qol: Brute damage reduction changed to a simpler format
+  - balance: Ubermorph armor slightly nerfed
+  - balance: Signal Blowout is no longer given before marker activation
+  - bugfix: Necro limbs now properly center when dropped
+  - bugfix: Necro limbs can be picked up again
+  - bugfix: Bloody Scrawl no longer spreads blood everywhere
+  - bugfix: Map door access has been fixed, probably
