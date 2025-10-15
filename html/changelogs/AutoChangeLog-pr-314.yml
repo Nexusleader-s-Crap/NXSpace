@@ -1,0 +1,5 @@
+author: blackwolf602
+delete-after: true
+changes:
+  - rscadd: 1.0 CEC evacuation area
+  - rscadd: Medical floor sprites
