@@ -1,5 +1,4 @@
-author: blackwolf602
-delete-after: true
-changes:
+2025-10-16:
+  blackwolf602:
   - rscadd: 1.0 CEC evacuation area
   - rscadd: Medical floor sprites
