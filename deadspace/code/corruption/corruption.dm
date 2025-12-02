@@ -39,6 +39,7 @@
 		/turf/open/chasm,
 		/turf/open/lava,
 		/turf/open/openspace,
+		//turf/open/DSshuttle,
 	)
 
 /obj/structure/corruption/Initialize(mapload, datum/corruption_node/new_master)
