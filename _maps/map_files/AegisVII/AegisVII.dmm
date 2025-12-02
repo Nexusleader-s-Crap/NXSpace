@@ -19648,6 +19648,10 @@
 /obj/effect/spawner/random/deadspace/ammo/mining,
 /turf/open/floor/deadspace/random/maint_center,
 /area/mine/storage)
+"kjD" = (
+/obj/structure/closet/secure_closet/security/ds,
+/turf/closed/wall,
+/area/station/security/lockers)
 "kjI" = (
 /obj/structure/table,
 /obj/effect/spawner/random/food_or_drink/snack,
@@ -24627,7 +24631,7 @@
 /obj/machinery/button/door/directional/north{
 	id = "UndergroundStorageDoor";
 	name = "Storage Button";
-	req_access_txt = "48"
+	req_access_txt = "31"
 	},
 /turf/open/floor/deadspace/grille_spare3,
 /area/station/cargo/warehouse)
@@ -26840,6 +26844,7 @@
 /area/station/hallway/secondary/exit/departure_lounge)
 "nRG" = (
 /obj/machinery/light/directional/south,
+/obj/structure/closet/secure_closet/security/ds,
 /turf/open/floor/deadspace/random/slides{
 	dir = 4
 	},
@@ -35554,7 +35559,7 @@
 /obj/machinery/button/door/directional/north{
 	name = "bridge armory";
 	id = "bridge armory";
-	req_access_txt = "19"
+	req_access_txt = "23"
 	},
 /obj/effect/turf_decal/trimline/red/filled/warning{
 	dir = 8
@@ -84358,7 +84363,7 @@ kKR
 kKR
 kKR
 kKR
-kKR
+kjD
 dBD
 dBD
 dBD
