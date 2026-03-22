@@ -1,4 +1,4 @@
-## Daedalus Dock codebase
+## Deadspace 13 codebase
 
 [![CI Suite](https://github.com/DaedalusDock/daedalusdock/actions/workflows/ci_suite.yml/badge.svg)](https://github.com/DaedalusDock/daedalusdock/actions/workflows/ci_suite.yml)
 [![Percentage of issues still open](https://isitmaintained.com/badge/open/DaedalusDock/daedalusdock.svg)](https://isitmaintained.com/project/DaedalusDock/daedalusdock "Percentage of issues still open")
@@ -7,14 +7,13 @@
 
 [![resentment](.github/images/badges/built-with-resentment.svg)](.github/images/comics/131-bug-free.png) [![technical debt](.github/images/badges/contains-technical-debt.svg)](.github/images/comics/106-tech-debt-modified.png) [![forinfinityandbyond](.github/images/badges/made-in-byond.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
 
-* **Website:** https://daedalus13.net
-* **Code:** https://github.com/DaedalusDock/daedalusdock
+* **Upstream Code:** https://github.com/DaedalusDock/daedalusdock
+* **DS13 Code:** https://github.com/DS-13-Dev-Team/DS13-2.0
 * **Wiki:** https://wiki.daedalus13.net/Main_Page
 * **Codedocs:** https://codedoc.daedalus13.net/
-* **Daedalus Dock Discord:** https://discord.gg/bttwJmfznH
-* **Coderbus Discord:** https://discord.gg/Vh8TJp9
+* **DS13 Discord:** https://discord.gg/bbxrRFdA29
 
-This is the codebase for the nightmare amalgamation of /TG/station, Goonstation, and Baystation12 codebases for the game Space Station 13.
+This is a recreation of the 1.0 Deadspace 13 codebase using Daedalus Dock as a foundation, for the game Space Station 13.
 
 Space Station 13 is a round-based roleplaying game set on a cassette-futuristic station where every job from Clown to Head of Security is played by users. Watch out for shifty individuals, as you may be subject to kidnapping, blood sacrifice, murder, or a dock in pay from a particularly upset Head of Personnel.
 
