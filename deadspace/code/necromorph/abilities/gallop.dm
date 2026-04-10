@@ -22,20 +22,20 @@
 	holder.play_necro_sound(SOUND_SHOUT, VOLUME_MID, TRUE, 3)
 	RegisterSignal(holder, COMSIG_STARTED_CHARGE, TYPE_PROC_REF(/datum/action/cooldown/necro/active, CooldownEnd))
 	RegisterSignal(holder, COMSIG_MOB_STATCHANGE, PROC_REF(OnStatChange))
-	RegisterSignal(holder, COMSIG_LIVING_UPDATED_RESTING, PROC_REF(OnUpdateResting))
+	RegisterSignal(holder, COMSIG_LIVING_SET_BODY_POSITION, PROC_REF(OnUpdateResting))
 	RegisterSignal(holder, COMSIG_MOB_APPLY_DAMAGE, PROC_REF(OnHit))
 	RegisterSignal(holder, COMSIG_MOVABLE_BUMP, PROC_REF(OnBump))
 	RegisterSignal(holder, COMSIG_MOVABLE_MOVED, PROC_REF(OnMoved))
 	holder.add_movespeed_modifier(/datum/movespeed_modifier/gallop)
 
-/datum/action/cooldown/necro/active/gallop/proc/OnStatChange(mob/living/carbon/human/necromorph/leaper/source, new_stat, old_stat)
+/datum/action/cooldown/necro/active/gallop/proc/OnStatChange(mob/source, new_stat, old_stat)
 	SIGNAL_HANDLER
-	if(new_stat > old_stat)
+	if(new_stat > CONSCIOUS)
 		CooldownEnd()
 
-/datum/action/cooldown/necro/active/gallop/proc/OnUpdateResting(mob/living/carbon/human/necromorph/leaper/source, resting)
+/datum/action/cooldown/necro/active/gallop/proc/OnUpdateResting(mob/living/source)
 	SIGNAL_HANDLER
-	if(resting)
+	if(source.body_position == LYING_DOWN)
 		CooldownEnd()
 
 /datum/action/cooldown/necro/active/gallop/proc/OnHit(mob/living/carbon/human/necromorph/leaper/source, damage, damagetype, def_zone)
