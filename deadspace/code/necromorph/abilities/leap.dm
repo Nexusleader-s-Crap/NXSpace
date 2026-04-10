@@ -38,5 +38,5 @@
 
 /datum/action/cooldown/necro/charge/leaper/on_bump(mob/living/source, atom/target)
 	SSmove_manager.stop_looping(source)
-	else if(ismob(target) || target.uses_integrity)
+	if(ismob(target) || target.uses_integrity)
 		hit_target(source, target)
