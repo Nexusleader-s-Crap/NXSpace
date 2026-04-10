@@ -49,7 +49,7 @@
 	return ..()
 
 /datum/action/cooldown/necro/charge/Activate(atom/target)
-	var/mob/living/carbon/human/necromorph/exploder/user = owner
+	var/mob/living/carbon/human/necromorph/user = owner
 	var/initial_transform = matrix(user.transform)
 	var/initial_x = user.pixel_x
 	var/initial_y = user.pixel_y
@@ -94,7 +94,6 @@
 	RegisterSignal(new_loop, COMSIG_MOVELOOP_POSTPROCESS, PROC_REF(post_move))
 	RegisterSignal(new_loop, COMSIG_MOVELOOP_STOP, PROC_REF(charge_end))
 	RegisterSignal(charger, COMSIG_MOB_STATCHANGE, PROC_REF(stat_changed))
-	RegisterSignal(charger, COMSIG_LIVING_UPDATED_RESTING, PROC_REF(update_resting))
 
 	SEND_SIGNAL(charger, COMSIG_STARTED_CHARGE)
 
@@ -115,7 +114,7 @@
 /datum/action/cooldown/necro/charge/proc/charge_end(datum/move_loop/source)
 	SIGNAL_HANDLER
 	var/mob/living/carbon/human/necromorph/charger = source.moving
-	UnregisterSignal(charger, list(COMSIG_MOVABLE_BUMP, COMSIG_MOVABLE_PRE_MOVE, COMSIG_MOVABLE_MOVED, COMSIG_MOB_STATCHANGE, COMSIG_LIVING_UPDATED_RESTING))
+	UnregisterSignal(charger, list(COMSIG_MOVABLE_BUMP, COMSIG_MOVABLE_PRE_MOVE, COMSIG_MOVABLE_MOVED, COMSIG_MOB_STATCHANGE))
 	charger.charging = FALSE
 	charger.remove_movespeed_modifier(/datum/movespeed_modifier/necro_charge)
 	StartCooldown()
@@ -145,6 +144,10 @@
 
 	if(valid_steps_taken >= 15) //Sanity check so necros don't charge until they hit something if they miss a target
 		SSmove_manager.stop_looping(owner)
+
+	//Specifically for if the necro rests *while* charging, happens more then you think
+	if(charger.resting)
+		SSmove_manager.stop_looping(source) //STOP SLIDING ON THE FLOOR DAMMIT
 
 	//Light shake with each step
 	shake_camera(source, 1.5, 0.5)
@@ -179,10 +182,5 @@
 		source.visible_message(span_danger("[source] smashes into [target]!"))
 		shake_camera(source, 4, 3)
 		source.Stun(6)
-
-/datum/action/cooldown/necro/charge/proc/update_resting(atom/movable/source, resting)
-	SIGNAL_HANDLER
-	if(resting)
-		SSmove_manager.stop_looping(source)
 
 #undef CHARGE_SPEED
