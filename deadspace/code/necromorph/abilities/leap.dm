@@ -38,7 +38,5 @@
 
 /datum/action/cooldown/necro/charge/leaper/on_bump(mob/living/source, atom/target)
 	SSmove_manager.stop_looping(source)
-	if(GLOB.wallrun_types_typecache[target.type])
-		SEND_SIGNAL(source, COMSIG_LEAPER_MOUNT, target)
 	else if(ismob(target) || target.uses_integrity)
 		hit_target(source, target)
