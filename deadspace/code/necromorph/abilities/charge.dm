@@ -25,7 +25,7 @@
 	var/turf/T = get_turf(target)
 	if(!T)
 		return FALSE
-	if(charger.resting)
+	if(charger.body_position == LYING_DOWN)
 		to_chat(charger, span_notice("You cannot charge while on the floor!"))
 		return FALSE
 	if(!ishuman(target))
@@ -94,6 +94,7 @@
 	RegisterSignal(new_loop, COMSIG_MOVELOOP_POSTPROCESS, PROC_REF(post_move))
 	RegisterSignal(new_loop, COMSIG_MOVELOOP_STOP, PROC_REF(charge_end))
 	RegisterSignal(charger, COMSIG_MOB_STATCHANGE, PROC_REF(stat_changed))
+	RegisterSignal(charger, COMSIG_LIVING_SET_BODY_POSITION, PROC_REF(fallen))
 
 	SEND_SIGNAL(charger, COMSIG_STARTED_CHARGE)
 
@@ -114,7 +115,7 @@
 /datum/action/cooldown/necro/charge/proc/charge_end(datum/move_loop/source)
 	SIGNAL_HANDLER
 	var/mob/living/carbon/human/necromorph/charger = source.moving
-	UnregisterSignal(charger, list(COMSIG_MOVABLE_BUMP, COMSIG_MOVABLE_PRE_MOVE, COMSIG_MOVABLE_MOVED, COMSIG_MOB_STATCHANGE))
+	UnregisterSignal(charger, list(COMSIG_MOVABLE_BUMP, COMSIG_MOVABLE_PRE_MOVE, COMSIG_MOVABLE_MOVED, COMSIG_MOB_STATCHANGE, COMSIG_LIVING_SET_BODY_POSITION))
 	charger.charging = FALSE
 	charger.remove_movespeed_modifier(/datum/movespeed_modifier/necro_charge)
 	StartCooldown()
@@ -131,6 +132,12 @@
 /datum/action/cooldown/necro/charge/proc/do_charge_indicator(atom/charge_target)
 	return
 
+///This checks if you fell over while charging, cancelling the charge
+/datum/action/cooldown/necro/charge/proc/fallen(mob/living/source)
+	SIGNAL_HANDLER
+	if(source.body_position == LYING_DOWN)
+		SSmove_manager.stop_looping(owner)
+
 /datum/action/cooldown/necro/charge/proc/on_move(atom/source, atom/new_loc)
 	SIGNAL_HANDLER
 	if(!actively_moving)
@@ -144,10 +151,6 @@
 
 	if(valid_steps_taken >= 15) //Sanity check so necros don't charge until they hit something if they miss a target
 		SSmove_manager.stop_looping(owner)
-
-	//Specifically for if the necro rests *while* charging, happens more then you think
-	if(charger.resting)
-		SSmove_manager.stop_looping(source) //STOP SLIDING ON THE FLOOR DAMMIT
 
 	//Light shake with each step
 	shake_camera(source, 1.5, 0.5)
