@@ -219,8 +219,8 @@ GLOBAL_LIST_EMPTY(freq2icon)
 	key = RADIO_CHANNEL_SCIENCE
 	frequency = FREQ_SCIENCE
 
-/datum/radio_channel/federation
-	key = RADIO_CHANNEL_FEDERATION
+/datum/radio_channel/command
+	key = RADIO_CHANNEL_COMMAND
 	frequency = FREQ_COMMAND
 	icon = "ntboss.png"
 
