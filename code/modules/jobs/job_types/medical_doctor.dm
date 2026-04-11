@@ -51,6 +51,8 @@
 	if(!isvox(spawned))
 		spawned.AddComponent(/datum/component/clothing_lover, list(/obj/item/clothing/mask/utopia), "aether_maskless", /datum/mood_event/aether_maskless, ITEM_SLOT_MASK)
 
+	spawned.apply_status_effect(/datum/status_effect/skill_mod/doctor)
+
 /datum/outfit/job/doctor
 	name = JOB_MEDICAL_DOCTOR
 	jobtype = /datum/job/doctor
