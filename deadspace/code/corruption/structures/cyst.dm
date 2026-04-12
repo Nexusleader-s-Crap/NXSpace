@@ -11,6 +11,7 @@
 	cost = 15
 	can_place_in_sight = FALSE
 	require_wall = TRUE
+	same_distance = 2
 
 /obj/structure/necromorph/cyst/Initialize(mapload)
 	.=..()

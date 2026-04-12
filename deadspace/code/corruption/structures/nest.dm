@@ -15,6 +15,7 @@
 	light_color = "#bcb10d"
 	cost = 110
 	marker_only = TRUE
+	same_distance = 2
 	///Type, not a reference
 	var/datum/necro_class/spawning_necromorph
 	var/biomass_spent = 0

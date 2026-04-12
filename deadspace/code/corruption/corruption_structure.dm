@@ -16,6 +16,9 @@
 	var/marker_only = FALSE
 	var/cost = 0
 	var/require_wall = FALSE
+	/// How far does the structure need to be from others of it's type.
+	/// 1 means you can't place them next to each other, 2 means they need to be 1 tile away
+	var/same_distance = 0
 
 /obj/structure/necromorph/Initialize(mapload)
 	..()

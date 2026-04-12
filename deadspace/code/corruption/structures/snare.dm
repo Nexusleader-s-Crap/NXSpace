@@ -7,6 +7,7 @@
 	max_integrity = 50
 	can_place_in_sight = TRUE
 	cost = 40
+	same_distance = 1 //Pair them with maws or something
 
 /obj/structure/necromorph/snare/Initialize(mapload)
 	.=..()
