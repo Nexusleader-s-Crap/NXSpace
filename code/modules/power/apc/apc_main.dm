@@ -63,7 +63,7 @@ DEFINE_INTERACTABLE(/obj/machinery/power/apc)
 	///Is the AI locked from using the APC
 	var/aidisabled = FALSE
 	///Reference to our cable terminal
-	var/obj/machinery/power/terminal/datanet/terminal = null
+	var/obj/machinery/power/terminal/terminal = null
 	///Amount of power used by the lighting channel
 	var/lastused_light = 0
 	///Amount of power used by the equipment channel
@@ -589,6 +589,9 @@ GLOBAL_REAL_VAR(default_apc_armor) = list(BLUNT = 20, PUNCTURE = 20, SLASH = 0, 
 
 /obj/machinery/power/apc/proc/report()
 	return "[area.name] : [equipment]/[lighting]/[environ] ([lastused_total]) : [cell? cell.percent() : "N/C"] ([charging])"
+
+/obj/machinery/power/apc/try_flock_convert(datum/flock/flock, force)
+	return
 
 /*Power module, used for APC construction*/
 /obj/item/electronics/apc

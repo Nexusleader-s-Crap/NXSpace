@@ -6,6 +6,7 @@
 	max_integrity = 200
 	cost = 9
 	marker_only = TRUE
+	same_distance = 3
 
 /datum/corruption_node/propagator
 	remaining_weed_amount = 300

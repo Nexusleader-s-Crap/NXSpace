@@ -16,6 +16,7 @@
 	marker_only = TRUE
 	// Biomass that will be slowly given to the marker
 	var/processing_biomass = 0
+	same_distance = 1
 
 /obj/structure/necromorph/maw/Initialize(mapload, obj/structure/marker/marker)
 	.=..()

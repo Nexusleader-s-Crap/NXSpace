@@ -167,14 +167,18 @@ GLOBAL_LIST_INIT(freqtospan, list(
 	var/static/regex/##varname = regex("(?<!\\\\)[char](.+?)(?<!\\\\)[char]", "g");\
 	input = varname.Replace_char(input, "<[html]>$1</[html]>&#8203;") //zero-width space to force maptext to respect closing tags.
 
-/// Scans the input sentence for speech emphasis modifiers, notably |italics|, +bold+, and _underline_ -mothblocks
-/atom/movable/proc/say_emphasis(input)
+/// Scans the input sentence for speech emphasis modifiers, notably |italics|, +bold+, and _underline_
+/proc/default_encode_emphasis(input)
 	ENCODE_HTML_EMPHASIS(input, "\\|", "i", italics)
 	ENCODE_HTML_EMPHASIS(input, "\\+", "b", bold)
 	ENCODE_HTML_EMPHASIS(input, "_", "u", underline)
 	var/static/regex/remove_escape_backlashes = regex("\\\\(_|\\+|\\|)", "g") // Removes backslashes used to escape text modification.
 	input = remove_escape_backlashes.Replace_char(input, "$1")
 	return input
+
+/// Scans the input sentence for speech emphasis modifiers, notably |italics|, +bold+, and _underline_
+/atom/movable/proc/say_emphasis(input)
+	return default_encode_emphasis(input)
 
 #undef ENCODE_HTML_EMPHASIS
 
@@ -206,7 +210,7 @@ GLOBAL_LIST_INIT(freqtospan, list(
 /proc/get_radio_name(freq)
 	if(islist(freq)) //Heehoo hijack bullshit
 		return freq["name"]
-	var/returntext = GLOB.reverseradiochannels["[freq]"]
+	var/returntext = GLOB.radio_frequency_to_channel["[freq]"]
 	if(returntext)
 		return returntext
 	return "[copytext_char("[freq]", 1, 4)].[copytext_char("[freq]", 4, 5)]"

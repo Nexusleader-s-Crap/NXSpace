@@ -14,6 +14,7 @@
 	cost = 15
 	var/obj/structure/marker/marker
 	var/last_sighting
+	same_distance = 4 //This is big because it is a psuedo camera
 
 /obj/structure/necromorph/eye/Initialize(mapload, obj/structure/marker/marker)
 	.=..()

@@ -16,6 +16,7 @@
 	var/list/controlled_atoms
 	var/obj/structure/marker/marker
 	var/datum/biomass_source/our_source
+	same_distance = 3
 
 /obj/structure/necromorph/harvester/Initialize(mapload, obj/structure/marker/new_master)
 	.=..()

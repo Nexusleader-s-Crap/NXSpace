@@ -3,7 +3,7 @@
 /obj/item/clothing
 	name = "clothing"
 	resistance_flags = FLAMMABLE
-	max_integrity = 200
+	max_integrity = 20
 	integrity_failure = 0.4
 
 	stamina_damage = 0
@@ -120,7 +120,8 @@
 		moth_snack = new
 		moth_snack.name = name
 		moth_snack.clothing = WEAKREF(src)
-	return interacting_with.base_item_interaction(src, user, list2params(modifiers))
+
+	return interacting_with.base_item_interaction(user, moth_snack, modifiers)
 
 /obj/item/clothing/attackby(obj/item/W, mob/user, params)
 	if(!istype(W, repairable_by))
