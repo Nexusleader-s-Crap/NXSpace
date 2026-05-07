@@ -16999,7 +16999,6 @@
 "iQp" = (
 /obj/machinery/door/airlock/medical{
 	name = "Psychology";
-	req_access_txt = "70";
 	stripe_paint = "#D381C9"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -17007,6 +17006,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "12"
 	},
+/obj/effect/mapping_helpers/access/all/medical/general/airlock,
 /turf/open/floor/wood,
 /area/station/service/psychology)
 "iQu" = (
@@ -23018,9 +23018,6 @@
 /turf/open/floor/iron/norn,
 /area/station/hallway/primary/starboard)
 "lSR" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Laundry Room"
-	},
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -23028,7 +23025,9 @@
 /obj/structure/cable/yellow{
 	icon_state = "3"
 	},
-/obj/effect/mapping_helpers/access/any/service/general/airlock,
+/obj/machinery/door/airlock/public/glass{
+	name = "Laundry Room"
+	},
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/station/commons/dorms/laundry)
 "lTa" = (
@@ -31172,9 +31171,6 @@
 /turf/open/floor/iron/ported/techfloor,
 /area/station/engineering/supermatter/room)
 "pSB" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Auxiliary Tool Storage"
-	},
 /obj/effect/landmark/navigate_destination/tools,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -31182,7 +31178,9 @@
 /obj/structure/cable/yellow{
 	icon_state = "3"
 	},
-/obj/effect/mapping_helpers/access/any/engineering/general/airlock,
+/obj/machinery/door/airlock/public/glass{
+	name = "Auxiliary Tool Storage"
+	},
 /turf/open/floor/iron/norn,
 /area/station/commons/storage/tools)
 "pSX" = (
