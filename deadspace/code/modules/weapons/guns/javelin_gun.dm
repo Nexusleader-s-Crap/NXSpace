@@ -85,4 +85,17 @@ Projectiles for the casings
 	icon_state = "javelin_flight"
 	damage = 55
 	armor_penetration = 50
-	embedding = list(embed_chance=100, fall_chance=3, jostle_chance=4, ignore_throwspeed_threshold=TRUE, pain_stam_pct=0.4, pain_mult=5, jostle_pain_mult=6, rip_time=10)
+	embedding = list(embed_chance=100, fall_chance=0, jostle_chance=4, ignore_throwspeed_threshold=TRUE, pain_stam_pct=0.4, pain_mult=5, jostle_pain_mult=6, rip_time=10)
+
+
+/obj/projectile/bullet/javelin/on_hit(atom/target, blocked = 0, pierce_hit) //Override the proc for on_hit
+ . = ..()
+    if (!ismovable(target)) //Is this a movable atom? If not, then stop the proc here
+        return
+    var/atom/movable/victim = target //"Cast"
+    var/turf/throw_target = get_ranged_target_turf_direct(src, get_edge_target_turf(src, NORTH), REPULSE_RANGE, -angle) //Get a location to throw them at
+    victim.safe_throw_at(throw_target, REPULSE_RANGE, 3, force = MOVE_FORCE_STRONG) //Throw the target at the locastion we found
+    if (!isliving(victim )) // Check
+        return
+    var/mob/living/living_target = target
+    living_target.Paralyze(1 SECONDS) //Paralyze the mob for 1 second
