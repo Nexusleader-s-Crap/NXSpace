@@ -93,7 +93,7 @@ Projectiles for the casings
     if (!ismovable(target)) //Is this a movable atom? If not, then stop the proc here
 		return
 	var/atom/movable/victim = target //"Cast"
-    var/turf/throw_target = get_ranged_target_turf_direct(src, get_edge_target_turf(src, NORTH), REPULSE_RANGE, -angle) //Get a location to throw them at
+      var/turf/throw_target = get_ranged_target_turf_direct(src, get_edge_target_turf(src, NORTH), REPULSE_RANGE, -angle) //Get a location to throw them at
     victim.safe_throw_at(throw_target, REPULSE_RANGE, 3, force = MOVE_FORCE_STRONG) //Throw the target at the locastion we found
     if (!isliving(victim )) // Check
         return
