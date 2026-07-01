@@ -89,7 +89,7 @@ Projectiles for the casings
 
 
 /obj/projectile/bullet/javelin/on_hit(atom/target, blocked = 0, pierce_hit) //Override the proc for on_hit
- . = ..()
+	. = ..()
     if (!ismovable(target)) //Is this a movable atom? If not, then stop the proc here
         return
     var/atom/movable/victim = target //"Cast"
