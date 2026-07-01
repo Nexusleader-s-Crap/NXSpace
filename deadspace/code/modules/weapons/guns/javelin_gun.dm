@@ -97,5 +97,5 @@ Projectiles for the casings
 	victim.safe_throw_at(throw_target, REPULSE_RANGE, 3, force = MOVE_FORCE_STRONG) //Throw the target at the locastion we found
 	if (!isliving(victim )) // Check
 		return
-    var/mob/living/living_target = target
+	var/mob/living/living_target = target
     living_target.Paralyze(1 SECONDS) //Paralyze the mob for 1 second
