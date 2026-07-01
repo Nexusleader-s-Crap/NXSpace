@@ -90,7 +90,7 @@ Projectiles for the casings
 
 /obj/projectile/bullet/javelin/on_hit(atom/target, blocked = 0, pierce_hit) //Override the proc for on_hit
 	. = ..()
-    if (!ismovable(target)) //Is this a movable atom? If not, then stop the proc here
+	if (!ismovable(target)) //Is this a movable atom? If not, then stop the proc here
 		return
 	var/atom/movable/victim = target //"Cast"
       var/turf/throw_target = get_ranged_target_turf_direct(src, get_edge_target_turf(src, NORTH), REPULSE_RANGE, -angle) //Get a location to throw them at
