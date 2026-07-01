@@ -98,4 +98,4 @@ Projectiles for the casings
 	if (!isliving(victim )) // Check
 		return
 	var/mob/living/living_target = target
-    living_target.Paralyze(1 SECONDS) //Paralyze the mob for 1 second
+	living_target.Paralyze(1 SECONDS) //Paralyze the mob for 1 second
